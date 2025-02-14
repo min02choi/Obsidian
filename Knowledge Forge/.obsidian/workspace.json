@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/NLP/Attention Is All You Need.md",
+                "file": "Paper/NLP/Bert.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attention Is All You Need"
+              "title": "Bert"
             }
           },
           {
@@ -27,35 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Methods/Word-Piece Tokenization.md",
+                "file": "Paper/NLP/Bert.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Word-Piece Tokenization"
+              "title": "Bert"
             }
           }
-        ]
-      },
-      {
-        "id": "7836e20efa29df9c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e34c6b68d63114ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/NLP/Attention Is All You Need.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Attention Is All You Need"
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,19 +191,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d645a19a8a1fcf4",
+  "active": "1b0b5ed2dc99904f",
   "lastOpenFiles": [
     "Study/Methods/Word-Piece Tokenization.md",
     "Paper/NLP/Attention Is All You Need.md",
+    "Paper/NLP/Bert.md",
+    "Pasted image 20250214163802.png",
     "Study/Methods/BPE(Byte-Pair Encoding).md",
+    "Paper/How to read paper.md",
+    "create a link.md",
     "Welcome.md",
     "Study/Methods",
     "Study/Datasets",
     "Journal/2025-02-13.md",
-    "Paper/How to read paper.md",
     "image_file/paper1-transformer.png.md",
     "연습용/testing.md",
-    "create a link.md",
     "image_file",
     "Study",
     "Untitled.md",
