@@ -80,4 +80,10 @@ entities($e_q$) 와 answer($a$) 는 지식그래프($G$) 에 linked, labeled 되
 
 # 4. Approach
 
+## 4.1 Reasoning on Graphs: Planning-Retrieval-Reasoning
 
+Planning 기법을 사용한 기존 모델의 한계
+* 이전에도 Planning 기법을 사용하여 question을 해결하려는 시도가 있었지만, **hallucination** 문제 발생. hallucination으로 인해 잘못된 plan이 생성되어 잘못된 방향으로 lead 함
+* [[Plan-and-Solve Prompting]] 논문은 planning 기법을 사용
+
+![[Pasted image 20250218112424.png]]
