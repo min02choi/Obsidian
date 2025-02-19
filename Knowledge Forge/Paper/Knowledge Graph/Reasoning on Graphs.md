@@ -82,8 +82,59 @@ entities($e_q$) 와 answer($a$) 는 지식그래프($G$) 에 linked, labeled 되
 
 ## 4.1 Reasoning on Graphs: Planning-Retrieval-Reasoning
 
-Planning 기법을 사용한 기존 모델의 한계
+#### Planning 기법을 사용한 기존 모델의 한계
+
+* 기존 LLM 기반 추론 방식은 **프롬프트를 이용해 LLM이 직접 추론 계획(Reasoning Plan)을 생성**한 후 이를 기반으로 답을 도출함.
 * 이전에도 Planning 기법을 사용하여 question을 해결하려는 시도가 있었지만, **hallucination** 문제 발생. hallucination으로 인해 잘못된 plan이 생성되어 잘못된 방향으로 lead 함
 * [[Plan-and-Solve Prompting]] 논문은 planning 기법을 사용
 
+#### **RoG의 접근 방식**
+
+1. **Relation Path(관계 경로)를 계획(Planning) 단계에서 생성**
+	* LLM이 직접 추론 계획을 세우는 대신, **지식 그래프(KG)의 구조를 활용해 "관계 경로(relation path)"를 생성**함.
+	- 예시) "Alice의 자녀는 누구인가?"
+	    - 관계 경로: `marry to → father of`
+	    - 실행 과정: `Alice marry to → Bob father of → Charlie` → 답: "Charlie"
+
+2. **Retrieval (검색) 단계에서 KG에서 관련된 추론 경로를 가져옴**
+	- 지식 그래프의 최신 정보를 검색하여 추론 계획을 실행.
+
+3. Reasoning (추론) 단계에서 LLM이 답을 생성
+
+#### **최적화 목표**
+
+RoG는 다음 확률을 최적화하는 문제로 정의됨:
+
 ![[Pasted image 20250218112424.png]]
+- $P_θ(z∣q)$: LLM이 KG 기반으로 올바른 관계 경로를 생성할 확률 (Planning 단계)
+- $P_θ(a∣q,z,G)$: 주어진 KG에서 추론하여 답을 생성할 확률 (Reasoning 단계)
+
+위의 식을 기반으로 하여, 다음의 최종 식을 도출 할 수 있음 *(과정 생략)*
+
+![[Pasted image 20250219133605.png]]
+
+## 4.3 Planning Module
+
+#### Planning Module 의 역할
+- 질문에 대한 신뢰할 수 있는 **관계 경로(relation path)를 계획(Planning)**
+
+#### 관계 경로를 생성하는 과정
+1. LLM에게 특정한 프롬프트(Instruction Template)를 제공
+`Please generate a valid relation path that can be helpful for answering the following question: <Question>`
+
+2.  LLM이 관계 경로를 구조화된 형식으로 생성
+`z = <PATH> r1 <SEP> r2 <SEP> ... <SEP> rl </PATH>`
+	- `<PATH>`: 경로의 시작
+	- `<SEP>`: 관계(relation) 사이를 구분하는 특수 토큰
+	- `</PATH>`: 경로의 끝
+
+3. 최적화 목표: LLM이 정확한 관계 경로를 예측하도록 학습
+![[Pasted image 20250219134521.png]]
+* Chain Rule을 적용하여 관계(relation) 하나씩 예측하는 방식으로 확률을 모델링
+* 이전까지 생성된 관계`(r<sub><i></sub>)` 를 기반으로 현재 관계`(r<sub><i></sub>)`를 예측하는 방식
+
+## 4.4 Retrieval-Reasoning Module
+### Retrieval
+
+
+### Reasoning
