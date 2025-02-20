@@ -1,4 +1,4 @@
-### **📌 Plan-and-Solve Prompting 논문 요약**
+### 📌 Plan-and-Solve Prompting 논문 요약
 
 **논문 제목:** _Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models_  
 

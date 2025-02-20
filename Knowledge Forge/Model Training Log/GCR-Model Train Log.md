@@ -51,8 +51,9 @@ GPU 스탯
 	* 1628 row
 
 
-STEP1: Graph-constrained decoding
-several KG-grounded reasoning paths and hypotheses answers 를 생성하는 과정
+## STEP1: Graph-constrained decoding
+
+목표: several KG-grounded reasoning paths and hypotheses answers 를 생성하는 과정
 * `predictions.jsonl`: 모델이 예측한 모든 경로 제시
 ```
 {"id": "WebQTest-0", "question": "what does jamaican people speak",
@@ -106,5 +107,128 @@ several KG-grounded reasoning paths and hypotheses answers 를 생성하는 과�
 {"id": "WebQTest-521", "question": "who was anakin skywalker", "answer": ["Ted Bracewell"], "q_entity": ["g.125_cxx77"], "a_entity": ["Ted Bracewell"], "graph": [["Tatooine", "fictional_universe.fictional_setting.characters_that_have_lived_here", "g.125_cxx77"], ["m.011qx8t1", "film.performance.character", "g.125_cxx77"]], "choices": []}
 ```
 
-STEP2: Graph Inductive reasoning
-LLM을 통해 step1에서 생성한 reasoning paths에서 최종 답안을 도출하는 과정
+## STEP2: Graph Inductive reasoning
+
+목표: LLM을 통해 step1에서 생성한 reasoning paths에서 최종 답안을 도출하는 과정
+
+**1차시도(25.02.20) (GCR/graph-constrained-reasoning/step2_result_GCR_timeout.txt)**
+* 뭔가 키가 안되어있나? 나 분명 추가한거같은데 openapi 불러오는 코드 부분을 좀 더 봐야 할듯
+* 서버 시간 5시간으로 했는데 59퍼센트 함. 한 10시간은 잡아야할듯...????? 그럴거면 지금 돌려야하고
+* 파일의 log가  왜 섞여서 나오냐? -- 이거 분리하고싶은데
+
+* 아니 근데 log 보는데 Answer에 그냥 답으로 마지막 노드의 값을 도출하는거같은데 뭐지
+
+문제점(terminal  결과)
+* 토큰 사용 관련
+* 에러가  안 뜨는 경우
+```
+Question:
+what does jamaican people speak?
+
+Based on the reasoning paths, please answer the given question. Please keep the answer as simple as possible and only return answers. Please return each answer in a new line.
+Message:  Reasoning Paths:
+# Reasoning Path:
+John F. Kennedy -> people.person.parents -> Joseph P. Kennedy, Sr. -> people.person.children -> Robert F. Kennedy
+# Answer:
+Robert F. Kennedy
+# Reasoning Path:
+John F. Kennedy -> base.kwebbase.kwtopic.connections_from -> john fitzgerald kennedy allegedly assassinated by lee harvey oswald -> base.kwebbase.kwconnection.other -> Lee Harvey Oswald
+# Answer:
+Lee Harvey Oswald
+# Reasoning Path:
+John F. Kennedy -> film.film_subject.films -> Thirteen Days -> film.film.subjects -> Robert F. Kennedy
+# Answer:
+Robert F. Kennedy
+# Reasoning Path:
+John F. Kennedy -> government.us_president.vice_president -> Lyndon B. Johnson
+# Answer:
+Lyndon B. Johnson
+```
+
+* 에러 뜨는 경우
+	* Number of Token 포함 파일: `chatgpt.py`
+```
+Question:
+what did james k polk do before he was president?
+
+Based on the reasoning paths, please answer the given question. Please keep the answer as simple as possible and only return answers. Please return each answer in a new line.
+Number of token:  284
+Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-xx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Message:  Reasoning Paths:
+# Reasoning Path:
+Fukushima Daiichi Nuclear Power Plant -> location.location.containedby -> Japan
+# Answer:
+Japan
+# Reasoning Path:
+Fukushima Daiichi Nuclear Power Plant -> location.location.street_address -> m.0ggj3z2 -> location.mailing_address.citytown -> Fukushima
+# Answer:
+Fukushima
+# Reasoning Path:
+Fukushima Daiichi Nuclear Power Plant -> location.location.containedby -> Japan -> location.country.administrative_divisions -> Fukui Prefecture
+# Answer:
+Fukui Prefecture
+# Reasoning Path:
+Fukushima Daiichi Nuclear Power Plant -> base.schemastaging.context_name.pronunciation -> g.125_p8yvl
+# Answer:
+g.125_p8yvl
+# Reasoning Path:
+Fukushima Daiichi Nuclear Power Plant -> common.topic.image -> The Fukushima 1 NPP -> common.image.appears_in_topic_gallery -> Fukushima Daiichi Nuclear Power Plant
+# Answer:
+Fukushima Daiichi Nuclear Power Plant
+# Reasoning Path:
+Fukushima Daiichi Nuclear Power Plant -> location.location.containedby -> Okuma
+# Answer:
+Okuma
+```
+
+(해결 시도) key  받는 부분 수정중...
+```python
+    ## 키 값 받는 과정 좀 수정함
+    def prepare_for_inference(self, model_kwargs={}):
+        api_key = os.getenv('OPENAI_API_KEY')
+        client = OpenAI(
+	        # api_key=os.environ['OPENAI_API_KEY'],  # this is also the default, it can be omitted
+	        api_key=api_key     # 직접적으로 넣어줌
+        )
+
+        self.client = client
+```
+
+ctrl + J: terminal up and down
+
+오 이거 되나?
+
+GCR step1, 2 돌린 프롬포트
+sbatch  --time=7:00:00 -q big_qos -p big_suma_rtx30900 ./run.sh
+
+Step2 정리하면 될듯(Notion, Opsidian)
+GPT 사용량 변화
+* 0.36 -> 0.60 (양도 정리할것. 근데 왜 토큰은 안뜸..?)
+
+
+***
+
+STEP2: Graph Inductive reasoning(2차 시도)
+목적: LLM을 통해 step1에서 생성한 reasoning paths에서 최종 답안을 도출하는 과정
+
+`gpt-3.5-turbo` 사용하여 추출된 reasoning path에서 최종 답안 도출
+
+성능 지표
+* Accuracy: 74.19227965234637
+* Hit: 89.68058968058968
+* F1: 70.34046649011567
+* Precision: 76.8986193986194
+* Recall: 74.19227965234637
+
+테스트 결과
+* 총 데이터 수: 1628개(WebQTest)
+* 전체 소요 시간: 질문당 약 0.085s
+* 개당 평균 소요 시간
+
+> results 안의 results history안에 
+> * 3090 genpath, kgqa값을 넣음
+
+
+4090, gpu 2개
+
+sbatch  --time=7:00:00 -q big_qos -p big_suma_rtx4090 ./run2.sh
