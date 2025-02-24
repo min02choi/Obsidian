@@ -1,4 +1,4 @@
-#### 2025.02.20
+#### 2025.02.20(금)
 아니 미치겠음 GCR 하는데 왜 모델이 안불러와지냐...
 * Llama + ChatGPT (gpu4, rtx3090) => 완료
 * Llama + Llama (gpu4, rtx4090) => 하는중
@@ -40,3 +40,43 @@ generate_sentence에 일단 인자 두개 한번 ㅋㅋㅋ줘봐야겠다
 IndexError: list index out of range
 ```
 응 집 가서 고칠게(20:00)
+
+#### 2025.02.24(월)
+내가봤을 떄 
+```
+for key in tokens_and_encodings[0][0].keys():
+               ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+```
+이 문제는 WebQTest-521 때문에 그러는거 같음. GenPath의 WebQTest-521데이터셋이 없걸랑? 그래서 에러나는게 맞는거같음.
+
+그래서 521을 거르고 나머지 1627개에 대해서 한번 돌려보려다가, `test[:10]` 에 대해서 돌려봄. 근데 왠걸 결과가 다음과 같음.
+
+```text
+Accuracy: 0.0 Hit: 0.0 F1: 0.0 Precision: 0.0 Recall: 0.0
+```
+
+```text
+{"id": "WebQTest-0", "question": "what does jamaican people speak", "prediction": "# Reasoning Path:\nJamaica", "ground_truth": ["Jamaican English", "Jamaican Creole English Language"], "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nReasoning Paths:\n# Reasoning Path:\nJamaica -> location.country.currency_used -> Jamaican dollar -> finance.currency.countries_used -> Jamaica\n# Answer:\nJamaica\n# Reasoning Path:\nJamaica -> location.country.languages_spoken -> Jamaican English\n# Answer:\nJamaican English\n# Reasoning Path:\nJamaica -> location.country.languages_spoken -> Jamaican Creole English Language\n# Answer:\nJamaican Creole English Language\n\nQuestion:\nwhat does jamaican people speak?\n\nBased on the reasoning paths, please answer the given question. Please keep the answer as simple as possible and only return answers. Please return each answer in a new line.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"}
+```
+
+* generate_sentence부분을 chatgpt.py와 hf을 비교해가면서 하기
+
+
+문제
+* 521데이터 처리
+* predict의 input 데이터 (final answer.py)
+
+
+돌리기 전
+* prediction `test[:5]` (돌리는 데이터셋과 동일한 파일) 지우고 돌리기
+* if "GCR" in args.model_name: 이거 바꾸기(내가 수정했던거 다 수정하기...) 토큰 받는 법?
+
+와 완성했다 근데 진짜 ㅋㅋㅋ나 빡대가리네
+```text
+predict_final_aws.py Line 60:  Llama-3.1-8B-Instruct
+base_hf_casual_model.py > generate_sentence
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1628/1628 [14:14<00:00,  1.91it/s]
+Accuracy: 71.5221701370911 Hit: 86.67076167076166 F1: 69.33886678528441 Precision: 76.73914294428647 Recall: 71.5221701370911
+```
+kg 로 된 모델을 왜 쓰냐... 그냥 라마 써야지 바부야ㅜ

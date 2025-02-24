@@ -69,19 +69,8 @@
               "icon": "lucide-file",
               "title": "GCR-Model Train Log"
             }
-          },
-          {
-            "id": "616abd6cc302e848",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,10 +227,10 @@
   },
   "active": "fe26eadd1a9c8302",
   "lastOpenFiles": [
-    "Journal/SwallaSwalla.md",
-    "Journal/Model Train List.md",
     "Model Training Log/GCR.md",
+    "Journal/SwallaSwalla.md",
     "Model Training Log/GCR-Model Train Log.md",
+    "Journal/Model Train List.md",
     "Journal/Paper List.md",
     "images/Pasted image 20250218112424.png",
     "images/Pasted image 20250219134521.png",
