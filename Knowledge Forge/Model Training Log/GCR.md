@@ -1,3 +1,8 @@
+---
+aliases:
+  - GCR Training Log
+---
+
 논문 제목: Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models
 
 ### 목적
@@ -5,7 +10,7 @@
 * 지식 그래프의 구조적 특성을 모델에 반영하여, 보다 정확하고 신뢰할 수 있는 추론을 이끌어내는 방법을 제시
 
 ### 실험 과정
-
+ 
 KG에서 reasoning path를 도출하고, 이를 기반으로 최종 추론을 하고자 함
 
 총 *두 단계*로 이루어짐:
@@ -108,7 +113,7 @@ KG에서 reasoning path를 도출하고, 이를 기반으로 최종 추론을 �
     - **총 데이터 수**: 1628개
 
 #### STEP1: Graph-constrained Decoding
-* Model: Llama-3.1-8B
+* Model: rmanluo/Llama-3.1-8B
 
 **성능 지표:**
 - Accuracy: 78.46735
@@ -126,9 +131,9 @@ KG에서 reasoning path를 도출하고, 이를 기반으로 최종 추론을 �
 
 **테스트 결과**
 - **총 데이터 수**: 1628개
-- **전체 소요 시간**: 2h 02m 51s
-- **개당 평균 소요 시간**: 4.53s
-    - **최장 소요 시간**: `WebQTest-1395` (11.89s)
+- **전체 소요 시간**: 3h 17m 53s
+- **개당 평균 소요 시간**: 7~8s
+    - **최장 소요 시간**: `WebQTest-1395` (18.91s)
 - **None 결과**: `WebQTest-521`
       WebQTest-521 Data
         ```json
@@ -145,21 +150,22 @@ KG에서 reasoning path를 도출하고, 이를 기반으로 최종 추론을 �
 
 #### STEP2: Graph Inductive reasoning
 * Model: Llama-3.1-8B
+> step1에서 사용하는 모델은 KG Based 모델이고... step2는 general llm(Llama, Gpt)임ㅜㅜㅜ 아니 이걸로 시간 겁나 끌음..
 
 **성능지표:**
-- Accuracy: 74.19227
-- Hit: 89.68058
-- F1: 70.34046
+- Accuracy: 72.44364
+- Hit: 87.65356
+- F1: 69.95159
      추가 성능지표 확인
-        - Precision: 76.89861
-        - Recall: 74.19227
+        - Precision: 77.27516
+        - Recall: 72.44364
 
 **테스트 결과**
 - **총 데이터 수**: 1628개
-- **전체 소요 시간**: 2m 18s
-- **개당 평균 소요 시간**: 0.085s
+- **전체 소요 시간**: 12m 41s
+- **개당 평균 소요 시간**: 0.47s
 
-> STEP1 + STEP2 최종 답안 도출 시간: 
+> STEP1 + STEP2 최종 답안 도출 시간: 약 8s
 
 ***
 ## 3. Llama + ChatGPT (rtx4090) (->해야함)
@@ -170,7 +176,7 @@ KG에서 reasoning path를 도출하고, 이를 기반으로 최종 추론을 �
 - **파티션**: big_suma_rtx4090
 
 - **Reasoning Path 과정**: `Llama-3.1-8B`
-- **Reasoning Finnal Answer**: `Llama-3.1-8B`
+- **Reasoning Finnal Answer**: `gpt-3.5-turbo`
 - **사용 데이터셋**: rmanluo/RoG-webqsp의 테스트 데이터(WebQTest-n)
     - **총 데이터 수**: 1628개
 
@@ -183,17 +189,17 @@ Llama + Llama (rtx4090)에서 만든 동일한 reasoning path를 사용하므로
 * Model: gpt-3.5-turbo
 
 **성능지표:**
-- Accuracy: 74.19227
-- Hit: 89.68058
-- F1: 70.34046
+- Accuracy: 73.78062
+- Hit: 89.12776
+- F1: 70.532074
      추가 성능지표 확인
-        - Precision: 76.89861
-        - Recall: 74.19227
+        - Precision: 77.23570
+        - Recall: 73.78062
 
 **테스트 결과**
 - **총 데이터 수**: 1628개
-- **전체 소요 시간**: 2m 18s
-- **개당 평균 소요 시간**: 0.085s
+- **전체 소요 시간**: 2m 16s
+- **개당 평균 소요 시간**: 0.084s
 
 > STEP1 + STEP2 최종 답안 도출 시간: 
 

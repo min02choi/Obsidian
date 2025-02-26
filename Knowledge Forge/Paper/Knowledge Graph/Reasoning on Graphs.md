@@ -1,3 +1,7 @@
+---
+aliases:
+  - RoG
+---
 
 **논문 제목:** *Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning*
 주요 아이디어: 
@@ -105,13 +109,13 @@ entities($e_q$) 와 answer($a$) 는 지식그래프($G$) 에 linked, labeled 되
 
 RoG는 다음 확률을 최적화하는 문제로 정의됨:
 
-![[Pasted image 20250218112424.png]]
+![[rog1.png]]
 - $P_θ(z∣q)$: LLM이 KG 기반으로 올바른 관계 경로를 생성할 확률 (Planning 단계)
 - $P_θ(a∣q,z,G)$: 주어진 KG에서 추론하여 답을 생성할 확률 (Reasoning 단계)
 
 위의 식을 기반으로 하여, 다음의 최종 식을 도출 할 수 있음 *(과정 생략)*
 
-![[Pasted image 20250219133605.png]]
+![[rog2.png]]
 
 ## 4.3 Planning Module
 
@@ -129,7 +133,7 @@ RoG는 다음 확률을 최적화하는 문제로 정의됨:
 	- `</PATH>`: 경로의 끝
 
 3. 최적화 목표: LLM이 정확한 관계 경로를 예측하도록 학습
-![[Pasted image 20250219134521.png]]
+![[rog3.png]]
 * Chain Rule을 적용하여 관계(relation) 하나씩 예측하는 방식으로 확률을 모델링
 * 이전까지 생성된 관계`(r<sub><i></sub>)` 를 기반으로 현재 관계`(r<sub><i></sub>)`를 예측하는 방식
 

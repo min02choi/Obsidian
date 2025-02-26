@@ -6,6 +6,7 @@
       {
         "id": "252b9171ea627796",
         "type": "tabs",
+        "dimension": 63.57414448669202,
         "children": [
           {
             "id": "0d645a19a8a1fcf4",
@@ -22,20 +23,6 @@
             }
           },
           {
-            "id": "fe26eadd1a9c8302",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/SwallaSwalla.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SwallaSwalla"
-            }
-          },
-          {
             "id": "4bd6827863d2976c",
             "type": "leaf",
             "state": {
@@ -48,13 +35,27 @@
               "icon": "lucide-file",
               "title": "Model Train List"
             }
+          },
+          {
+            "id": "d936b634c144f22f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Paper List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paper List"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7752a58431cb5620",
         "type": "tabs",
+        "dimension": 36.42585551330799,
         "children": [
           {
             "id": "131014eb425a4971",
@@ -62,15 +63,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model Training Log/GCR-Model Train Log.md",
+                "file": "Paper/Knowledge Graph/Reasoning on Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GCR-Model Train Log"
+              "title": "Reasoning on Graphs"
+            }
+          },
+          {
+            "id": "81944bc48051c6ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Paper List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paper List"
+            }
+          },
+          {
+            "id": "fe26eadd1a9c8302",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,24 +253,29 @@
   },
   "active": "fe26eadd1a9c8302",
   "lastOpenFiles": [
-    "Model Training Log/GCR.md",
-    "Journal/SwallaSwalla.md",
-    "Model Training Log/GCR-Model Train Log.md",
-    "Journal/Model Train List.md",
-    "Journal/Paper List.md",
-    "images/Pasted image 20250218112424.png",
-    "images/Pasted image 20250219134521.png",
-    "images",
-    "images/Pasted image 20250219133605.png",
-    "Paper/Knowledge Graph/Reasoning on Graphs.md",
-    "Paper/Knowledge Graph/Plan-and-Solve Prompting.md",
     "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Paper/How to read paper.md",
+    "Model Training Log/GCR.md",
+    "Journal/Paper List.md",
+    "Paper/Knowledge Graph/Plan-and-Solve Prompting.md",
+    "Paper/Knowledge Graph/Reasoning on Graphs.md",
+    "Journal/Model Train List.md",
+    "images/paper/rog3.png",
+    "images/paper/rog2.png",
+    "images/paper/rog1.png",
+    "images/paper/paper_gcr1.png",
+    "images/paper1-transformer.png.md",
+    "images/paper",
+    "images/paper/paper_gcr2.png",
+    "RoG.md",
+    "Model Training Log/GCR-Model Train Log.md",
+    "Journal/SwallaSwalla.md",
+    "images",
     "Study/Algorithm/Beam-Search.md",
     "Study/Methods/Sementic Parsing Methods.md",
     "Study/Methods/BPE(Byte-Pair Encoding).md",
     "Study/KG Terms/Triple.md",
     "Welcome.md",
-    "image_file/paper1-transformer.png.md",
     "image_file",
     "Study/Algorithm",
     "Model Training Log",
@@ -259,14 +290,9 @@
     "Paper/Knowledge Graph",
     "Study/Methods/Word-Piece Tokenization.md",
     "Pasted image 20250214163802.png",
-    "Paper/How to read paper.md",
     "Study/Methods",
     "Study/Datasets",
-    "Journal/2025-02-13.md",
-    "연습용/testing.md",
     "Study",
-    "Untitled.md",
-    "Paper/NLP",
     "Untitled.canvas"
   ]
 }

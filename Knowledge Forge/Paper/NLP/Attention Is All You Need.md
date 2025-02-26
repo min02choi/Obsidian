@@ -34,7 +34,7 @@ Goal: 시퀀스 연산을 줄이고자 함
 ***  
   
 # 3. Model Architecture  
-![Transformer model architecture](image_file/paper1-transformer.png)  
+![Transformer model architecture](paper1-transformer.png.md)  
 * encoder decoder 구조로 되어있음  
 * stacked self-attention  
 * point-wise, fully conneted layers  
