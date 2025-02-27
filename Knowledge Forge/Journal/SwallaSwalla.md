@@ -80,3 +80,12 @@ base_hf_casual_model.py > generate_sentence
 Accuracy: 71.5221701370911 Hit: 86.67076167076166 F1: 69.33886678528441 Precision: 76.73914294428647 Recall: 71.5221701370911
 ```
 kg 로 된 모델을 왜 쓰냐... 그냥 라마 써야지 바부야ㅜ
+
+#### 25.02.27
+일단 hop2로 다 돌렸고, 4시도하는 중
+```text
+sbatch  --time=3-00:00:00 -q big_qos -p big_suma_rtx3090 ./scripts/run2.sh
+```
+max값인 3일 줌ㅋㅋㅋ hop수가 증가함에 따라 값이 지수적으로 증가하므로...
+개인적으로 결과가 너무 궁금하다.
+오늘 논문(GCR)도 다 읽고 집 가야지 일단 본문이라도.

@@ -1,0 +1,4 @@
+.graph-view.color-fill {
+    r: calc(10px + var(--link-count) * 3px) !important;
+    fill: red !important; /* 색상도 변경 */
+}

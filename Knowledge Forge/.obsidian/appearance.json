@@ -1,4 +1,7 @@
 {
   "theme": "obsidian",
-  "accentColor": "#8b5bfb"
+  "accentColor": "#8b5bfb",
+  "enabledCssSnippets": [
+    "node_resize"
+  ]
 }
