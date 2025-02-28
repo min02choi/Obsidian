@@ -14,8 +14,15 @@
 | [[Plan-and-Solve Prompting]]: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models | ACL'23      | 250217        | 즉석적인 CoT 방식을 보안함. LLM이 추론하기 전, 미리 계획을 세워 이를 기반으로 문제 해결                                   |              |
 | [[Reasoning on Graphs]]: Faithful and Interpretable Large Language Model Reasoning<br>                | ICLR'24     |               |                                                                                          |              |
 | [[Graph-Constrained Reasoning]]: Faithful Reasoning on Knowledge Graphs with Large Language Models    | ArXiv'24    | 250226        | RoG의 후속작. KG-Trie와 KG specialized LLM을 사용하여 reasoning path 도출, 이를 기반으로 General LLM로 답 도출 |              |
+| Reasoning with Trees: Faithful Question Answering over Knowledge Graph                                |             |               |                                                                                          |              |
 |                                                                                                       |             |               |                                                                                          |              |
-|                                                                                                       |             |               |                                                                                          |              |
+
+***
+
+
+**논문 예약!**
+- [ ] Multi-hop Question Answering over Knowledge Graphs using Large Language Models, *arXiv 'Feb2024*
+	* hop수에 따른 다양한 실험 결과를 제시하려나?
 
 
 그래프 엣지 제거하고 싶으면 이런식으로도 가능~
