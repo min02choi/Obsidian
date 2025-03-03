@@ -19,11 +19,18 @@
 
 ***
 
-
-**논문 예약!**
+### **논문 예약!**
 - [ ] Multi-hop Question Answering over Knowledge Graphs using Large Language Models, *arXiv 'Feb2024*
 	* hop수에 따른 다양한 실험 결과를 제시하려나?
+- [ ] Diffusion Language Model?
 
+**KGQA Basic 논문**
+- [ ] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+- [ ] Multi-granularity Temporal Question Answering over Knowledge Graphs
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+- [ ] FC-KBQA: A Fine-to-Coarse Composition Framework for Knowledge Base Question Answering, ACL’23
+* KGQA 논문 읽기 순서(고민되네)
+	![[Pasted image 20250303174130.png]]
 
 그래프 엣지 제거하고 싶으면 이런식으로도 가능~
 [보이고 싶은 링크](보이고 싶은 링크)
