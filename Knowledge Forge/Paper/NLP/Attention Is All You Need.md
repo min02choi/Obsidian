@@ -183,7 +183,7 @@ RNN, CNN, Self-Attention의 공통점: 모두 하나의 가변 길이 시퀀스�
 English-German  
 * training data set: WMT 2014 English-German dataset  
   * 4.5 million sentence pairs  
-  * [[BPE(Byte-Pair Encoding)]] 방식으로 약 37,000개의 공유 어휘를 구성  
+  * [[Byte-Pair Encoding(BPE)]] 방식으로 약 37,000개의 공유 어휘를 구성  
   * source-target: 37000 tokens  
   
 English-French  

@@ -54,7 +54,7 @@
 - [x] Office365 계정 생성 및 스케쥴러 연동
 
 **DAILY**
-- [ ] 오꼬노미야끼 만들기!!!
+- [x] 오꼬노미야끼 만들기!!! -> 대성공
 
 ***
 #### 25.03.03(화)
@@ -62,13 +62,24 @@
 > *논문 읽기에 주력하라! Broad 하게 읽을것*
 
 **SCEDULE**
-- [ ] 09:00 자연어처리를 위한 딥러닝 공A343
+- [x] 09:00 자연어처리를 위한 딥러닝 공A343
 
 **STUDY**
+- [x] GCR모델 Trie 구조 확인해볼것
+	- 목요일 교수님과 SR 미팅(13:00)
 - [ ] NLP-KG Paper 읽기: Reasoning with Trees: Faithful Question Answering over Knowledge Graph
 - [ ] NLP 추천논문: Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
-- [ ]  RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+- [x]  RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering]
+- [x] 논문 읽으면서 모르는 단어나 개념 정리해가면서 읽기
+	- 쿼리의 종류(FQL, LQR 등)
+	- KG base terms
+- [ ] 개념 정리나 논문 정리 탬플릿 만들어놓기(졸릴 때 하셈...)
+- [x] 데이터센터 신청하기(신청서 + 재학증명서)
+	- ~~재학증명서 발급(돈아깝다.)~~
 
 **DAILY**
-- [ ] 딱히 할거는 없나? 일단 수업 우선 잘 들어라...
-	- 요리  해먹기? 
+- [x] 딱히 할거는 없나? 일단 수업 우선 잘 들어라...
+- [ ] 노트 사기?(요리나 대학원 관련)
+- [x] 토마토 리조또 + 전날 남은 재료(부침가루 반죽) 소진시키기
+	- 파전, 김치전... 양배추전
+	- 앗 고돌삼 온다고 하넹

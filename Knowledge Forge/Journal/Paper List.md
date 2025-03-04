@@ -15,7 +15,7 @@
 | [[Reasoning on Graphs]]: Faithful and Interpretable Large Language Model Reasoning<br>                | ICLR'24     |               |                                                                                          |              |
 | [[Graph-Constrained Reasoning]]: Faithful Reasoning on Knowledge Graphs with Large Language Models    | ArXiv'24    | 250226        | RoG의 후속작. KG-Trie와 KG specialized LLM을 사용하여 reasoning path 도출, 이를 기반으로 General LLM로 답 도출 |              |
 | Reasoning with Trees: Faithful Question Answering over Knowledge Graph                                |             |               |                                                                                          |              |
-|                                                                                                       |             |               |                                                                                          |              |
+| RNG-KBQA:Generation Augmented Iterative Ranking for Knowledge Base Question Answering                 |             |               | 전통 KBQA 방식인 ranking, generaion 방식의 결합                                                    |              |
 
 ***
 

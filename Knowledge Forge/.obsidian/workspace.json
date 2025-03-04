@@ -6,22 +6,8 @@
       {
         "id": "48431dbf8619fcd9",
         "type": "tabs",
-        "dimension": 53.26797385620915,
+        "dimension": 53.10457516339869,
         "children": [
-          {
-            "id": "edefc790a8a3afd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/Knowledge Graph/Plan-and-Solve Prompting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Plan-and-Solve Prompting"
-            }
-          },
           {
             "id": "46aca92b13a59bb2",
             "type": "leaf",
@@ -42,12 +28,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Paper List.md",
+                "file": "Paper/Knowledge Graph/Rng-KBQA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paper List"
+              "title": "Rng-KBQA"
+            }
+          },
+          {
+            "id": "b99bfa940db5a3b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Query/Freebase Query Language(FQL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Freebase Query Language(FQL)"
+            }
+          },
+          {
+            "id": "af1858f2ee52c1bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Query/Freebase Query Language(FQL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Freebase Query Language(FQL)"
             }
           },
           {
@@ -65,12 +79,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c3d6dc3dc6e9f178",
         "type": "tabs",
-        "dimension": 46.73202614379085,
+        "dimension": 46.89542483660131,
         "children": [
           {
             "id": "500aabd61ce06ada",
@@ -87,30 +101,49 @@
             }
           },
           {
+            "id": "31470dec00ed1b71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/To Do List/TDL 2025 Mar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TDL 2025 Mar"
+            }
+          },
+          {
             "id": "d936b634c144f22f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+                "file": "Journal/Paper List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph-Constrained Reasoning"
+              "title": "Paper List"
             }
           },
           {
-            "id": "4bd6827863d2976c",
+            "id": "632e90e1c6db51ff",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Paper List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paper List"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -265,29 +298,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "500aabd61ce06ada",
+  "active": "66c15886f48b97f7",
   "lastOpenFiles": [
     "Journal/To Do List/TDL 2025 Mar.md",
+    "Paper/Knowledge Graph/Rng-KBQA.md",
     "Journal/Paper List.md",
+    "Study/Query/Freebase Query Language(FQL).md",
+    "Journal/To Do List/TDL 2025 Feb.md",
+    "Study/Algorithm/MCTS(Monte Carlo Tree Search).md",
+    "Study/Methods/Word-Piece Tokenization.md",
+    "Study/Methods/Sementic Parsing Methods.md",
+    "Study/Methods/Byte-Pair Encoding(BPE).md",
+    "Study/Query",
+    "Paper/How to read paper.md",
+    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Study/Datasets/informations of datasets.md",
+    "images/Pasted image 20250304102741.png",
+    "Paper/Knowledge Graph/Reasoning on Graphs.md",
+    "Paper/Knowledge Graph/Reasoning with Trees.md",
+    "Paper/NLP/Attention Is All You Need.md",
     "images/Pasted image 20250227171316.png",
     "Journal/To Do List/TDL Template.md",
     "images/Pasted image 20250303174130.png",
     "Paper/Knowledge Graph/Plan-and-Solve Prompting.md",
     "보이고.md",
-    "Paper/Knowledge Graph/Reasoning with Trees.md",
-    "Study/Algorithm/MCTS(Monte Carlo Tree Search).md",
     "Model Training Log/GCR.md",
-    "Study/Datasets/informations of datasets.md",
-    "Journal/To Do List/TDL 2025 Feb.md",
-    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
     "Journal/To Do List",
     "images/Pasted image 20250228173739.png",
     "Study/Algorithm/Beam-Search.md",
     "images/Pasted image 20250228165230.png",
-    "Paper/Knowledge Graph/Reasoning on Graphs.md",
     "images/Pasted image 20250227171450.png",
     "Journal/SwallaSwalla.md",
-    "Paper/How to read paper.md",
     "Journal/Model Train List.md",
     "Journal/2025-02-13.md",
     "Journal/Questionaries.md",
@@ -297,21 +338,14 @@
     "images/paper/paper_gcr1.png",
     "images/paper1-transformer.png.md",
     "images/paper",
-    "images/paper/paper_gcr2.png",
     "RoG.md",
-    "Model Training Log/GCR-Model Train Log.md",
     "images",
-    "Study/Methods/Sementic Parsing Methods.md",
-    "Study/Methods/BPE(Byte-Pair Encoding).md",
-    "Study/KG Terms/Triple.md",
-    "Welcome.md",
     "image_file",
     "Study/Algorithm",
     "Model Training Log",
     "Study/KG Terms",
     "Paper/Knowledge Graph",
     "Study/Methods",
-    "Study/Datasets",
     "Untitled.canvas"
   ]
 }
