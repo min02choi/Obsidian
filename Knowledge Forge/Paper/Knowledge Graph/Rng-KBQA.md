@@ -108,12 +108,17 @@
 - 향후 연구로 syntax-aware generation 기법을 추가하여 논리 형식의 정확도를 더욱 향상할 수 있음.
 
 ***
+## Question about the Paper
 
-Question #1
+> 논문을 읽으면서 궁금한점 & 의문점
+
+#### Question1
 generator이 논리 형식을 보완한다는거는 알겠어. 근데 generator 이 생성한 논리형식이 실행되지 않을 수 있다는 말은 무엇인가?
-
-Answer
+#### Answer
 Generator는 Ranker가 제공한 상위 k 개의 논리 형식을 기반으로 **새로운 논리 형식을 생성**하지만,  이 논리 형식이 실제로 KB에서 실행되지 않을 가능성이 있다는 의미임.
 즉, Generator가 논리적으로는 맞아 보이지만, 실제 KB에서 실행할 수 없는 (executable하지 않은) 논리 형식을 만들 수도 있음.
 * Generator가 논리 형식을 생성할 때, **KB에 존재하지 않는 관계(relation)나 속성(property)을 포함할 가능성이 있음**.
 * 실행 가능한 논리 형식이지만 결과가 없는 경우 (No Valid Results)
+
+
+#### Question2

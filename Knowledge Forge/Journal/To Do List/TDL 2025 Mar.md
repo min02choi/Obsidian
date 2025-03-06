@@ -83,3 +83,80 @@
 - [x] 토마토 리조또 + 전날 남은 재료(부침가루 반죽) 소진시키기
 	- 파전, 김치전... 양배추전
 	- 앗 고돌삼 온다고 하넹
+
+***
+#### 25.03.05(수)
+> *영강의 살짝 긴장되네요..ㅎㅎ 학생증 오전에 찾기, 오후에 회식 있으니까 빠릿빠릿하게 움직이기. 일단은 논문을 읽는데 주력*
+
+**SCEDULE**
+- [x] 11:00 로봇러닝 공A690
+	- 일찍 갈것(위치 파악, 그냥 앞자리)
+	- 내가 맨날 타는 엘리베이터에서 4층에서 내려서, 왼쪽으로 꺾어서 계단 두칸 올라가기
+- [x] 17:00 ICL 회식 할매집(16:15 출발)
+
+**STUDY**
+- [x] > 로봇러닝: 어떤 논문을 발표할 지 한번 보기
+- [x] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+	- ch3부터 읽을 것, 일단 본문 다읽기 목표
+- [ ] NLP-KG Paper 읽기: Reasoning with Trees: Faithful Question Answering over Knowledge Graph
+- [x] 논문 읽으면서 모르는 단어나 개념 정리해가면서 읽기
+- [ ] 개념 정리나 논문 정리 탬플릿 만들어놓기(졸릴 때 하셈...)
+- [x] 데이터센터 계정 로그인 및 환경설정(아나콘다, 폴더, 깃허브)
+	- 다음에 clone 할 일 있으면 IdeaProjects 폴더 새로 하나 파기
+
+**DAILY**
+- [x] 딱히 할거는 없는듯
+	- 점심 일찍/간단한거 먹으러 가기
+	- 아 수업이 한시에 끝나는구나 애매하네 
+- [x] 학생증 찾으러가기(연세 우리은행, 09:00~) 드디어!!!😁
+	- ~~교통카드 등록하기, 이전 카드 처리 미친 후불 ㅋㅋㅋ~~
+- [ ] 목금 요리할 것 메뉴 정하고 재료 리스트업 시키기
+	- 목요일 저녁에 마트에서 금요일것까지 구매
+- [ ] 이거 Course 하나 만들어야 하나... 근데 그러면 너무 길어질 것 같기도 하고...
+
+***
+#### 25.03.06(목)
+> *수강정정 Keep Tracking!*
+
+**SCEDULE**
+- [x] 10:00 자연어처리를 위한 딥러닝 공A343
+- [x] 12:30 SR 교수님 미팅 교수실
+- [x] 16:00 SR 미팅
+	- 역할분담 및 추후 계획 논의
+
+**STUDY**
+- [x] 수강정정 들어가서 과목 풀리는거 있는지 확인(Keep tracking)
+	- 로봇러닝... 가능하냐? ~~자신감을 가져!~~ 응아니야 ㅋㅋㅋ
+	- 데이터마이닝 잡았당 속이 다 시원
+- [ ] GCR 모델 내 계정으로 완전 initialize해서 다시 돌려보기...? 성능 차이가 너무 많이 남
+	- 사용한 방법이나, 환경의 차이 살펴보기
+- [ ] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+	- 와 대박 집중 진짜 안됨
+- [ ] NLP 추천논문: Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
+	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
+- [ ] 옵시디언 탬플릿 작성하기(To Do List)
+
+**DAILY**
+- [ ] 연구실 출입 권한 신청하기
+	- 출력 -> 교수님, 허선생님 도장 받고-> KT가기
+- [ ] 오늘의 요리: 간장소면국수
+	- 장볼것: 소면 \ 우유, 새우
+
+***
+#### 25.03.06(금)
+>*와 대박 금요일이다!!*
+
+**SCEDULE**
+- [ ] 스케쥴 없음
+
+**STUDY**
+- [ ] GCR 모델 내 계정으로 완전 initialize해서 다시 돌려보기...? 성능 차이가 너무 많이 남
+	- 사용한 방법이나, 환경의 차이 살펴보기
+- [ ] GCR 모델 ChatGPT API 사용했을 때의 input, ouput 토큰 수, billing 정도 알아보기(WebQSP, CWQ)
+- [ ] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases 읽기
+
+**DAILY**
+- [ ] 연구실 출입 권한 신청하기
+	- 출력 -> 교수님, 허선생님 도장 받고-> KT가기
+- [ ] 오늘의 요리: 카레파스타?

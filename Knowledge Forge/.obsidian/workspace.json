@@ -28,6 +28,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Study/Algorithm/Beam-Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Beam-Search"
+            }
+          },
+          {
+            "id": "425ac384015b2da9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Datasets/informations of datasets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "informations of datasets"
+            }
+          },
+          {
+            "id": "a39e3e1175b23891",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Paper/Knowledge Graph/Rng-KBQA.md",
                 "mode": "source",
                 "source": false
@@ -37,49 +65,20 @@
             }
           },
           {
-            "id": "b99bfa940db5a3b6",
+            "id": "44fe9b18063e8bff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Query/Freebase Query Language(FQL).md",
+                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Freebase Query Language(FQL)"
-            }
-          },
-          {
-            "id": "af1858f2ee52c1bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/Query/Freebase Query Language(FQL).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Freebase Query Language(FQL)"
-            }
-          },
-          {
-            "id": "bd779bcff3f4cdf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/Algorithm/MCTS(Monte Carlo Tree Search).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MCTS(Monte Carlo Tree Search)"
+              "title": "Graph-Constrained Reasoning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c3d6dc3dc6e9f178",
@@ -285,7 +284,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,11 +297,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66c15886f48b97f7",
+  "active": "31470dec00ed1b71",
   "lastOpenFiles": [
+    "Journal/Paper List.md",
     "Journal/To Do List/TDL 2025 Mar.md",
     "Paper/Knowledge Graph/Rng-KBQA.md",
-    "Journal/Paper List.md",
+    "Journal/To Do List/TDL Template.md",
+    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Study/Datasets/informations of datasets.md",
+    "Study/Algorithm/Beam-Search.md",
     "Study/Query/Freebase Query Language(FQL).md",
     "Journal/To Do List/TDL 2025 Feb.md",
     "Study/Algorithm/MCTS(Monte Carlo Tree Search).md",
@@ -311,21 +314,17 @@
     "Study/Methods/Byte-Pair Encoding(BPE).md",
     "Study/Query",
     "Paper/How to read paper.md",
-    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
-    "Study/Datasets/informations of datasets.md",
     "images/Pasted image 20250304102741.png",
     "Paper/Knowledge Graph/Reasoning on Graphs.md",
     "Paper/Knowledge Graph/Reasoning with Trees.md",
     "Paper/NLP/Attention Is All You Need.md",
     "images/Pasted image 20250227171316.png",
-    "Journal/To Do List/TDL Template.md",
     "images/Pasted image 20250303174130.png",
     "Paper/Knowledge Graph/Plan-and-Solve Prompting.md",
     "보이고.md",
     "Model Training Log/GCR.md",
     "Journal/To Do List",
     "images/Pasted image 20250228173739.png",
-    "Study/Algorithm/Beam-Search.md",
     "images/Pasted image 20250228165230.png",
     "images/Pasted image 20250227171450.png",
     "Journal/SwallaSwalla.md",

@@ -46,7 +46,7 @@ CWQ(Complex Web Questions) 데이터셋은 복잡한 자연어 질문과 이에 
 - Alon Talmor, Jonathan Berant. “The Web as a Knowledge-base for Answering Complex Questions.” NAACL 2018
 
 ---
-## 비교 요약
+### 비교 요약
 
 |데이터셋|출처|질문 개수|질문 유형|주요 내용|활용 분야|
 |---|---|---|---|---|---|
@@ -56,3 +56,5 @@ CWQ(Complex Web Questions) 데이터셋은 복잡한 자연어 질문과 이에 
 CWQ는 다단계 추론이 필요한 복잡한 질문을 다루는 반면, WebQSP는 보다 단순한 질문을 중심으로 의미론적 구문 분석 연구에 적합한 데이터셋이다. 
 
 ---
+
+## GrailQA
