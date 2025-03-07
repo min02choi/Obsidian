@@ -6,101 +6,72 @@
       {
         "id": "48431dbf8619fcd9",
         "type": "tabs",
-        "dimension": 53.10457516339869,
+        "dimension": 55.81395348837209,
         "children": [
           {
             "id": "46aca92b13a59bb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Journal/Paper List.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20250307160626.png"
               },
-              "icon": "lucide-file",
-              "title": "Paper List"
-            }
-          },
-          {
-            "id": "66c15886f48b97f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/Algorithm/Beam-Search.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Beam-Search"
-            }
-          },
-          {
-            "id": "425ac384015b2da9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/Datasets/informations of datasets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "informations of datasets"
-            }
-          },
-          {
-            "id": "a39e3e1175b23891",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/Knowledge Graph/Rng-KBQA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rng-KBQA"
-            }
-          },
-          {
-            "id": "44fe9b18063e8bff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Graph-Constrained Reasoning"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c3d6dc3dc6e9f178",
-        "type": "tabs",
-        "dimension": 46.89542483660131,
-        "children": [
-          {
-            "id": "500aabd61ce06ada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/To Do List/TDL 2025 Feb.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TDL 2025 Feb"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250307160626"
             }
           },
           {
             "id": "31470dec00ed1b71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Query Instruction Parsing Plugin"
+            }
+          },
+          {
+            "id": "97fbce067317f0c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/Knowledge Graph/Reasoning with Trees.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reasoning with Trees"
+            }
+          },
+          {
+            "id": "abedc805ea24086d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/Knowledge Graph/Reasoning on Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reasoning on Graphs"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "c3d6dc3dc6e9f178",
+        "type": "tabs",
+        "dimension": 44.18604651162791,
+        "children": [
+          {
+            "id": "500aabd61ce06ada",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -114,17 +85,17 @@
             }
           },
           {
-            "id": "d936b634c144f22f",
+            "id": "f70d4fa3d97a63f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Paper List.md",
+                "file": "Journal/To Do List/TDL Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paper List"
+              "title": "TDL Template"
             }
           },
           {
@@ -140,9 +111,32 @@
               "icon": "lucide-file",
               "title": "Paper List"
             }
+          },
+          {
+            "id": "2b9c43c50c93eaac",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "2e660a3973b856f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Graph-Constrained Reasoning"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,26 +291,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31470dec00ed1b71",
+  "active": "500aabd61ce06ada",
   "lastOpenFiles": [
-    "Journal/Paper List.md",
-    "Journal/To Do List/TDL 2025 Mar.md",
-    "Paper/Knowledge Graph/Rng-KBQA.md",
     "Journal/To Do List/TDL Template.md",
+    "Journal/To Do List/TDL 2025 Mar.md",
+    "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
+    "images/Pasted image 20250307160626.png",
+    "images/Pasted image 20250307175403.png",
     "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Paper/Knowledge Graph/Rng-KBQA.md",
+    "Paper/Knowledge Graph/Reasoning on Graphs.md",
     "Study/Datasets/informations of datasets.md",
-    "Study/Algorithm/Beam-Search.md",
-    "Study/Query/Freebase Query Language(FQL).md",
+    "images/paper1-transformer.png.md",
+    "Paper/Knowledge Graph/Reasoning with Trees.md",
+    "Journal/Paper List.md",
     "Journal/To Do List/TDL 2025 Feb.md",
+    "Study/Query/Freebase Query Language(FQL).md",
+    "Paper/How to read paper.md",
+    "Study/Algorithm/Beam-Search.md",
     "Study/Algorithm/MCTS(Monte Carlo Tree Search).md",
     "Study/Methods/Word-Piece Tokenization.md",
     "Study/Methods/Sementic Parsing Methods.md",
     "Study/Methods/Byte-Pair Encoding(BPE).md",
     "Study/Query",
-    "Paper/How to read paper.md",
     "images/Pasted image 20250304102741.png",
-    "Paper/Knowledge Graph/Reasoning on Graphs.md",
-    "Paper/Knowledge Graph/Reasoning with Trees.md",
     "Paper/NLP/Attention Is All You Need.md",
     "images/Pasted image 20250227171316.png",
     "images/Pasted image 20250303174130.png",
@@ -330,14 +328,9 @@
     "Journal/SwallaSwalla.md",
     "Journal/Model Train List.md",
     "Journal/2025-02-13.md",
-    "Journal/Questionaries.md",
     "images/paper/rog3.png",
     "images/paper/rog2.png",
-    "images/paper/rog1.png",
-    "images/paper/paper_gcr1.png",
-    "images/paper1-transformer.png.md",
     "images/paper",
-    "RoG.md",
     "images",
     "image_file",
     "Study/Algorithm",

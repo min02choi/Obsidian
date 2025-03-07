@@ -98,7 +98,7 @@
 - [x] > 로봇러닝: 어떤 논문을 발표할 지 한번 보기
 - [x] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
 	- ch3부터 읽을 것, 일단 본문 다읽기 목표
-- [ ] NLP-KG Paper 읽기: Reasoning with Trees: Faithful Question Answering over Knowledge Graph
+- [x] NLP-KG Paper 읽기: Reasoning with Trees: Faithful Question Answering over Knowledge Graph
 - [x] 논문 읽으면서 모르는 단어나 개념 정리해가면서 읽기
 - [ ] 개념 정리나 논문 정리 탬플릿 만들어놓기(졸릴 때 하셈...)
 - [x] 데이터센터 계정 로그인 및 환경설정(아나콘다, 폴더, 깃허브)
@@ -110,9 +110,9 @@
 	- 아 수업이 한시에 끝나는구나 애매하네 
 - [x] 학생증 찾으러가기(연세 우리은행, 09:00~) 드디어!!!😁
 	- ~~교통카드 등록하기, 이전 카드 처리 미친 후불 ㅋㅋㅋ~~
-- [ ] 목금 요리할 것 메뉴 정하고 재료 리스트업 시키기
+- [x] 목금 요리할 것 메뉴 정하고 재료 리스트업 시키기
 	- 목요일 저녁에 마트에서 금요일것까지 구매
-- [ ] 이거 Course 하나 만들어야 하나... 근데 그러면 너무 길어질 것 같기도 하고...
+- [x] 이거 Course 하나 만들어야 하나... 근데 그러면 너무 길어질 것 같기도 하고...
 
 ***
 #### 25.03.06(목)
@@ -130,16 +130,16 @@
 	- 데이터마이닝 잡았당 속이 다 시원
 - [ ] GCR 모델 내 계정으로 완전 initialize해서 다시 돌려보기...? 성능 차이가 너무 많이 남
 	- 사용한 방법이나, 환경의 차이 살펴보기
-- [ ] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+- [x] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
 	- 와 대박 집중 진짜 안됨
-- [ ] NLP 추천논문: Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
+- [x] NLP 추천논문: Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
 	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
 - [ ] 옵시디언 탬플릿 작성하기(To Do List)
 
 **DAILY**
-- [ ] 연구실 출입 권한 신청하기
+- [x] 연구실 출입 권한 신청하기
 	- 출력 -> 교수님, 허선생님 도장 받고-> KT가기
-- [ ] 오늘의 요리: 간장소면국수
+- [x] 오늘의 요리: 간장소면국수
 	- 장볼것: 소면 \ 우유, 새우
 
 ***
@@ -147,16 +147,47 @@
 >*와 대박 금요일이다!!*
 
 **SCEDULE**
-- [ ] 스케쥴 없음
+- [x] 14:00 KEN 팀 미팅
+	- 미팅 전에 로그 써놓기
 
 **STUDY**
-- [ ] GCR 모델 내 계정으로 완전 initialize해서 다시 돌려보기...? 성능 차이가 너무 많이 남
+- [x] GCR 모델 내 계정으로 완전 initialize해서 다시 돌려보기...? 성능 차이가 너무 많이 남
 	- 사용한 방법이나, 환경의 차이 살펴보기
+	- 음 근데 이거는 그냥 안해도 될 듯.
 - [ ] GCR 모델 ChatGPT API 사용했을 때의 input, ouput 토큰 수, billing 정도 알아보기(WebQSP, CWQ)
+- [x] NLP 추천논문: Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
+	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
+	- 개념공부: KGQE, QPL methods, FOL query
 - [ ] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering
+	- 마무리 짓기, 옵시디언에 요약 작성
 - [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases 읽기
+- [x] 조테로 사용해보기
 
 **DAILY**
-- [ ] 연구실 출입 권한 신청하기
+- [x] 연구실 출입 권한 신청하기
 	- 출력 -> 교수님, 허선생님 도장 받고-> KT가기
-- [ ] 오늘의 요리: 카레파스타?
+- [x] 자취방 월세 납부
+- [ ] 으하하 불금이다!!! 지난번 보다 말은 소방관 영화 보기 with 맥주
+- [ ] 오늘의 요리: 크림파스타
+	- 장볼 것: 우유(200 or 300ml)
+
+***
+#### 25.03.07(토)
+>*아싸 주말이당 Relax 하면서... 늦잠도 좀 자고ㅋㅋㅋ*
+
+**SCEDULE**
+- [ ] 없어용. 점심 먹고 본가가기
+
+**STUDY**
+- [ ] ChatGPT API 사용정도 확인
+- [ ] Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
+	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
+	- 개념 다 이해하고 넘어가기(얻어갈 게 많은듯)
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+
+**DAILY**
+- [ ] 노트나 뭐 그런거 사기?
+- [ ] 오늘의 요리(?): 짜파게티 고급지게먹을것임
+
+
+노트 두개 사장!? 레시피, 공부 목적

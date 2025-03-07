@@ -1,4 +1,8 @@
- 논문 제목: Reasoning with Trees: Faithful Question Answering over Knowledge Graph
+---
+aliases:
+  - RwT
+---
+논문 제목: Reasoning with Trees: Faithful Question Answering over Knowledge Graph
  *** 
 ### **1. Background (연구 배경)**
 
