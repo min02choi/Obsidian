@@ -197,28 +197,42 @@
 >*노트 사기? 월요일 학교 갈 준비ㅜㅜ*
 
 **SCEDULE**
-- [ ] 딱히 없음.
+- [x] 딱히 없음.
 
 **STUDY**
-- [ ] ChatGPT API 사용정도 확인
+- [x] ChatGPT API 사용정도 확인
 	- Token 수에 따른 과금의 정도가 맞는지
-- [ ] 월요일 랩미팅 준비(KEN log 작성) 되어있는지 확인
+- [x] 월요일 랩미팅 준비(KEN log 작성) 되어있는지 확인
 
 **DAILY**
-- [ ] 점심을 위한 장보기?
+- [x] 점심을 위한 장보기?
+- [x] 옷 구매하기(나이키 져지, 청자켓)
 - [ ] 노트 구매(2권)
 
 ***
 #### 25.03.10(월)
->*오늘의 다짐*
+>*월요일이라는게 ㄹㅇ 말 안되긴 한다.
+>적어도 두시 전에는 자라... 너무 졸리다ㅜㅜ*
 
 **SCEDULE**
-- [ ] 10:00 ICL 랩미팅 공D916
-- [ ] 15:00 소프트웨어에이전트 공D508
+- [x] 10:00 ICL 랩미팅 공D916
+- [x] 15:00 소프트웨어에이전트 공D508
+	- 이거 정정해야하냐 아니냐 미치겠네
 
 **STUDY**
-- [ ] 공부 열심히 해라
+- [x] ChatGPT API 사용정도 확인 및 노션/옵시디언 정리
+	- CWQ 마무리
+	- Token 수에 따른 과금의 정도가 맞는지 ㅇㅇ맞는거같다
+- [ ] GCR infernce 할 때 들어가는 각 질문 당 input path 개수 확인
+	- RoG reasoning과의 시간 차이가 여기서 나오는거 같음
+	- WebQSP 우선 결과 확인 후 CWQ
+- [ ] Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
+	- 오늘 마무리하기
+	- 개념 다 이해하고 넘어가기(얻어갈 게 많은듯)
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
 
 **DAILY**
-- [ ] 고돌사?
-- [ ] 오늘의 요리
+- [x] 고돌사랑 저녁(신사 하이디라오)
+- [ ] 수강 정정 마지막날(소프트웨어 에이전트 이거 어카냐... keep tracking)
+- [ ] 노트 사고싶당ㅜㅜ

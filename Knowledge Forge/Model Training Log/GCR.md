@@ -336,6 +336,48 @@ Llama + Llama (rtx4090)에서 만든 동일한 reasoning path를 사용하므로
 	- **개당 평균 소요 시간**: 0.075s
 
 ***
+### GPT API cost
+
+**GPT API 호출 시 json 형태**
+```json
+{
+    "role": "user",
+    "content": "Where was George Washington Carver from?"
+}
+```
+* 여기서 `content`부분만 input 값으로 들어감(input token 값 계산)
+
+**ChatGPT API 기본적인 과금 단위**
+![[Pasted image 20250310132316.png]]
+* 1M Token, chat-3.5-turbo기준 $0.5 (한화 약 727원)
+* 영어 단어 1개는 약 1~2개의 token으로 계산됨
+
+**📌WebQSP, CWQ 데이터셋에 대한 API 사용 결과**
+* 두 데이터셋 모두 batch 사용 안하고, 1질문 당 1번의 api 호출
+	* api 호출 빈도수에 따라 과금이 나오기 때문에, 질문을 한번에 batch로 묶어서 처리하면 금액 절약 가능(약 50%)
+
+**WebQSP(1628개)**
+* request: 1.628k
+* input tokens: 385.038k
+* output tokens: 17.938k
+* charges: 0.22$
+
+```text
+[WebQTest-0]
+> query:  [{'role': 'user', 'content': 'Reasoning Paths:\n# Reasoning Path:\nJamaica -> location.country.languages_spoken -> Jamaican English\n# Answer:\nJamaican English\n# Reasoning Path:\nJamaica -> location.country.currency_used -> Jamaican dollar -> finance.currency.countries_used -> Jamaica\n# Answer:\nJamaica\n# Reasoning Path:\nJamaica -> location.country.languages_spoken -> Jamaican Creole English Language\n# Answer:\nJamaican Creole English Language\n\nQuestion:\nwhat does jamaican people speak?\n\nBased on the reasoning paths, please answer the given question. Please keep the answer as simple as possible and only return answers. Please return each answer in a new line.'}]
+> result:  Jamaican English
+Jamaican Creole English Language
+>>> tiktoken 예상 토큰 수: 141
+>>> 사용된 토큰 수 - 입력: 148, 출력: 13, 총합: 161
+```
+
+**CWQ(3528개)**
+* request: 3.528k
+* input tokens: 910.226k
+* output tokens: 26.346k
+* charges: 0.49$
+
+***
 ## Appendix
 
 .sh 파일 for step1
