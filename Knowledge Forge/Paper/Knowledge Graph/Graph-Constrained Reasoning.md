@@ -2,7 +2,7 @@
 aliases:
   - GCR
 ---
- 논문 제목: Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models
+  논문 제목: Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models
 
 * 훈련 결과: [[GCR|GCR Training Log]]
 ***

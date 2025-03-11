@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/Knowledge Graph/Reasoning on Graphs.md",
+                "file": "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reasoning on Graphs"
+              "title": "Query Instruction Parsing Plugin"
             }
           },
           {
@@ -280,17 +280,17 @@
   },
   "active": "500aabd61ce06ada",
   "lastOpenFiles": [
-    "Paper/Knowledge Graph/Reasoning on Graphs.md",
+    "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
     "Model Training Log/GCR.md",
     "Journal/To Do List/TDL 2025 Mar.md",
+    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Journal/To Do List/TDL Template.md",
+    "Paper/Knowledge Graph/Reasoning on Graphs.md",
     "Pasted image 20250310132316.png",
-    "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
     "Journal/Model Train List.md",
     "Journal/Paper List.md",
-    "Journal/To Do List/TDL Template.md",
     "images/Pasted image 20250307160626.png",
     "images/Pasted image 20250307175403.png",
-    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
     "Paper/Knowledge Graph/Rng-KBQA.md",
     "Study/Datasets/informations of datasets.md",
     "images/paper1-transformer.png.md",

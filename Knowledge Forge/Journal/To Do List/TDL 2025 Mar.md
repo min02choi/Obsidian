@@ -223,7 +223,7 @@
 - [x] ChatGPT API 사용정도 확인 및 노션/옵시디언 정리
 	- CWQ 마무리
 	- Token 수에 따른 과금의 정도가 맞는지 ㅇㅇ맞는거같다
-- [ ] GCR infernce 할 때 들어가는 각 질문 당 input path 개수 확인
+- [x] GCR infernce 할 때 들어가는 각 질문 당 input path 개수 확인
 	- RoG reasoning과의 시간 차이가 여기서 나오는거 같음
 	- WebQSP 우선 결과 확인 후 CWQ
 - [ ] Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
@@ -234,5 +234,35 @@
 
 **DAILY**
 - [x] 고돌사랑 저녁(신사 하이디라오)
-- [ ] 수강 정정 마지막날(소프트웨어 에이전트 이거 어카냐... keep tracking)
+- [x] 수강 정정 마지막날(소프트웨어 에이전트 이거 어카냐... keep tracking)
 - [ ] 노트 사고싶당ㅜㅜ
+
+***
+#### 25.03.11(화)
+>*소에 신청했다. 언제까지 도망만 다닐거냐!! 1학년 때 고생 한번 해봐야지... 혹시 모르잖냐 더 넓은 분야를 보게 될 지
+>논문 읽어라ㅜㅜㅜ 최근에 너무 못읽음...*
+
+**SCEDULE**
+- [x] 09:00 자연어처리를 위한 딥러닝 공A343
+- [x] 10:00 데이터마이닝 공A542
+	- 잘 따라가기, 팀을 꾸려야 함
+- [x] 14:00 Adobe 라이선스 신청
+- [x] 14:30 SR 번개 미팅(목요일 미팅 w/ SR 준비)
+
+**STUDY**
+- [x] GCR infernce 할 때 들어가는 각 질문 당 input path 개수 확인
+	- RoG reasoning과의 시간 차이가 여기서 나오는거 같음
+	- WebQSP 우선 결과 확인 후 CWQ
+- [x] GCR 최종 reasoning 단계에서 `GPT-4o-mini` 사용하여 결과 도출
+	- API 사용 금액, 토큰 수(이건 동일할 듯. 아니네)
+	- 시간 및 관련 기록 정리
+- [x] GCR 폴더 안쓰는 파일 정리하기
+- [ ] 소에) HW 확인 및 일정 적기, 생각좀 해보기
+- [ ] Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
+	- 오늘 마무리하기
+ - [x] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
+
+**DAILY**
+- [ ] 오늘의 요리: 감자뇨끼? 아니면 카레같은 좀 쉬운거 하고 밤에 빨리 다시 연구실? 후 러닝?
+- [ ] 열심히 살자. 부지런해지자. 진짜 논문 읽어라 제발

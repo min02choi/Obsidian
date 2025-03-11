@@ -336,6 +336,8 @@ Llama + Llama (rtx4090)에서 만든 동일한 reasoning path를 사용하므로
 	- **개당 평균 소요 시간**: 0.075s
 
 ***
+
+***
 ### GPT API cost
 
 **GPT API 호출 시 json 형태**
@@ -376,6 +378,93 @@ Jamaican Creole English Language
 * input tokens: 910.226k
 * output tokens: 26.346k
 * charges: 0.49$
+
+***
+### Additional: Reasoning 단계에서 들어가는 reasoning path 개수
+* RoG와의 시간 차이: 여기서 나오는건가?
+
+**WebQSP**
+- Avg Path: 4.996
+- Max Path: 10
+- Min Path: 1
+- path 빈도수: 0, 86, 149, 274, 279, 210, 189, 146, 130, 78, 86 (왼쪽부터 0~10)
+
+**CWQ**
+- Avg Num of Path: 4.972
+- Max Path Cnt: 10
+- Min Path Cnt: 1
+- path 빈도수: 0, 103, 364, 475, 564, 633, 533, 416, 243, 118, 71 (왼쪽부터 0~10)
+
+***
+WebQTest-1 데이터(이상함!!)
+* gpt-4o-mini
+
+```text
+> query:  [{'role': 'user', 'content': 'Reasoning Paths:\n# Reasoning Path:\nJames K. Polk -> people.person.profession -> Politician -> base.onephylogeny.type_of_thing.things_of_this_type -> United States Representative\n# Answer:\nUnited States Representative\n# Reasoning Path:\nJames K. Polk -> government.politician.government_positions_held -> m.04j60kh -> government.government_position_held.office_position_or_title -> United States Representative\n# Answer:\nUnited States Representative\n# Reasoning Path:\nJames K. Polk -> government.politician.government_positions_held -> m.04j60kc -> government.government_position_held.office_position_or_title -> United States Representative\n# Answer:\nUnited States Representative\n# Reasoning Path:\nJames K. Polk -> people.person.nationality -> United States of America -> government.governmental_jurisdiction.government_positions -> United States Representative\n# Answer:\nUnited States Representative\n# Reasoning Path:\nJames K. Polk -> common.topic.notable_types -> US President -> freebase.type_profile.equivalent_topic -> President of the United States\n# Answer:\nPresident of the United States\n\nQuestion:\nwhat did james k polk do before he was president?\n\nBased on the reasoning paths, please answer the given question. Please keep the answer as simple as possible and only return answers. Please return each answer in a new line.'}]
+```
+
+
+```text
+result:  United States Representative  
+United States Representative  
+United States Representative  
+United States Representative
+```
+
+```text
+result:  United States Representative  
+United States Representative  
+United States Representative  
+President of the United States  
+United States Representative
+>>> 사용된 토큰 수 - 입력: 292, 출력: 22, 총합: 314
+```
+
+결과가 왜 이모양?
+
+
+암튼... 4o로 다시 reason path
+환경
+current
+* request: 
+* input tokens: 
+* output tokens: 
+* charges: 0.006$
+
+
+
+환경
+* **서버 위치**: 데이터센터
+- **GPU 개수**: 2
+- **파티션**: big_suma_rtx4090
+
+**WebQSP**
+gpt-4o-mini API request 관련
+* request: 1.628k
+* input tokens: 382.564k
+* output tokens: 196.23k
+* charges: 0.06$
+데이터셋 측정 관련(성능지표, 테스트 결과)
+* Accuracy: 74.09896
+- Hit: 89.1277
+- F1: 71.4938
+- 총 데이터 수: 1628개
+- 전체 소요 시간: 2m 2s
+- 개당 평균 소요 시간: 0.075s
+
+**CWQ**
+gpt-4o-mini API request 관련
+* request: 3.531k
+* input tokens: 906.083k
+* output tokens: 29.870k
+* charges: 0.134$
+데이터셋 측정 관련(성능지표, 테스트 결과)
+* Accuracy: 59.7157
+- Hit: 65.2223
+- F1: 55.1792
+- 총 데이터 수: 3531개
+- 전체 소요 시간: 4m 37s
+- 개당 평균 소요 시간: 0.0785s
 
 ***
 ## Appendix
