@@ -17,6 +17,7 @@
 | [[Reasoning with Trees]]: Faithful Question Answering over Knowledge Graph                                                         |             |               |                                                                                            |              |
 | [[Rng-KBQA]]: Generation Augmented Iterative Ranking for Knowledge Base Question Answering                                         |             |               | 전통 KBQA 방식인 ranking, generaion 방식의 결합                                                      |              |
 | [[Query Instruction Parsing Plugin\|Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs]] |             | 250307        |                                                                                            | FOL query    |
+| [[Distribution Shifts Are Bottlenecks]]: Extensive Evaluation for  Grounding Language Models to Knowledge Bases                    |             |               |                                                                                            |              |
 
 ***
 

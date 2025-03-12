@@ -7,7 +7,7 @@
 - [x] (그냥 궁금한거) WebQSP, CWQ dataset이 어떤 유형인지, 내용인지 알아보기
 - [ ] NLP 추천논문: Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs
 	* GCR 후속논문이나, google scholar에서 읽고싶은거 읽기
-- [ ] FOL Query 개념 알기(KEN 팀페이지에 있는 terms)
+- [x] FOL Query 개념 알기(KEN 팀페이지에 있는 terms)
 
 ***
 #### 25.03.01(토) *삼일절*
@@ -264,5 +264,42 @@
 	- 여진영 교수님 방법: 제한시간 20분 후 disscussion
 
 **DAILY**
-- [ ] 오늘의 요리: 감자뇨끼? 아니면 카레같은 좀 쉬운거 하고 밤에 빨리 다시 연구실? 후 러닝?
-- [ ] 열심히 살자. 부지런해지자. 진짜 논문 읽어라 제발
+- [x] 오늘의 요리: 참치마요덮밥
+- [x] 노트 사기(일단 한권만 삼... 맘에 막 드는게 없네)
+- [x] 열심히 살자. 부지런해지자. 진짜 논문 읽어라 제발
+
+***
+#### 25.03.01(수)
+>*오늘이야말로 논문을 읽을 수 있는 절호의 찬스
+>독수리키링독수리키링독수리키링독키독키*
+
+**SCEDULE**
+- [x] 11:00 독수리키링 받기 백양관 N602호
+- [x] 14:00 안전교육 공C040
+
+**STUDY**
+- [ ] 소에) HW 확인 및 일정 적기, 생각좀 해보기
+- [ ] 데마) 프로젝트 생각해보기(사실 주제파악 먼저 하기)
+- [x] SR/GCR 관련 할 일 있으면 하기
+	- WebQSP 데이터셋 데이터 개수가 1628개가 맞는지? hf에는 1639라는거 같긴 함 -> None은 안불러와지는듯?(11개)
+ - [x] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+
+**DAILY**
+- [ ] 오늘의 요리: 카레파스타
+	- 장볼 것: 우유(450ml), 치즈
+	- 아 샤인머스켓 더 늦기 전에 먹어야함
+
+***
+#### 25.03.01(목)
+>*오늘의 다짐*
+
+**SCEDULE**
+- [ ] 10:00 자연어처리를 위한 딥러닝 공A343
+- [ ] 16:00 SR 미팅 w/ SR 온라인
+- [ ] 17:00 SR 미팅 공D916
+
+**STUDY**
+- [ ] 공부 열심히 해라
+
+**DAILY**
+- [ ] 요리 도과자~
