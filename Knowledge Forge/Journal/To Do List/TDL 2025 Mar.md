@@ -285,21 +285,55 @@
  - [x] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
 
 **DAILY**
-- [ ] 오늘의 요리: 카레파스타
+- [x] 오늘의 요리: 카레파스타
 	- 장볼 것: 우유(450ml), 치즈
-	- 아 샤인머스켓 더 늦기 전에 먹어야함
+	- 아 샤인머스켓 더 늦기 전에 먹어야함(다 먹음!)
 
 ***
 #### 25.03.01(목)
->*오늘의 다짐*
+>*첫 미팅 $w/$ SR! 화이팅이다*
 
 **SCEDULE**
-- [ ] 10:00 자연어처리를 위한 딥러닝 공A343
-- [ ] 16:00 SR 미팅 w/ SR 온라인
-- [ ] 17:00 SR 미팅 공D916
+- [x] 10:00 자연어처리를 위한 딥러닝 공A343
+	* ~~아니 미친 2분 늦었는데 지각임 시부레 앞으로 일찍 가자~~
+- [x] 16:00 SR 미팅 $w/$ SR 온라인
+- [x] 17:00 SR 미팅 공D916
 
 **STUDY**
-- [ ] 공부 열심히 해라
+- [x] 소에) HW 확인 및 일정 적기, 생각좀 해보기
+	- 과제 구상 짜기 -> 초안은 완성, 추후 docs로 옮기고 다듬어야 함
+	- AutoGen 돌려보기, 간단한 예제 만들기, 사례조사
+- [ ] 데마) 프로젝트 생각해보기(사실 주제파악 먼저 하기)
+- [x] SR/GCR 관련 할 일 있으면 하기
+	- 미팅 전 발표자료 확인 및 내용 파악하기
+	- 미팅 후 미팅 로그 정리하기(노션)
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
 
 **DAILY**
-- [ ] 요리 도과자~
+- [ ] 오늘의 요리: 오믈렛
+	- 아니 왜 오늘 아무것도 땡기지가 않지
+	- 집 갈 떄 맥주 사가기? 과자? 
+
+***
+#### 25.03.13(금)
+>*좀 빠릿빠릿하게 움직이기, 논문 읽기
+>불금이다 히히*
+
+**SCEDULE**
+- [ ] 14:00 KEN 미팅 공D916
+
+**STUDY**
+- [ ] 소에) HW #1 보고서 작성 시작
+	- 초안은 완성했음,  docs로 옮기고 다듬어야 함
+	- AutoGen 돌려보기, 간단한 예제 만들기, 사례조사 완료
+- [ ] 데마) 프로젝트 생각해보기(사실 주제파악 먼저 하기)
+- [ ] SR KG PLM fine-tuning 리서치(due.18(화))
+	- 개념부터 알아야 할듯ㅎㅎ
+- [ ] KEN 미팅하기 전 내용 정리하기
+	- 이번주 한 일 정리, 다음주 일 정리
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+
+**DAILY**
+- [ ] 불금! 영화보거나 그런거 하기!! 맥주와 안주!!
+- [ ] 오늘의 요리: 감자뇨끼
+	- 재료 한번 확인해보기
