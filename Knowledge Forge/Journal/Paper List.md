@@ -17,7 +17,8 @@
 | [[Reasoning with Trees]]: Faithful Question Answering over Knowledge Graph                                                         |             |               |                                                                                            |              |
 | [[Rng-KBQA]]: Generation Augmented Iterative Ranking for Knowledge Base Question Answering                                         |             |               | 전통 KBQA 방식인 ranking, generaion 방식의 결합                                                      |              |
 | [[Query Instruction Parsing Plugin\|Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs]] |             | 250307        |                                                                                            | FOL query    |
-| [[Distribution Shifts Are Bottlenecks]]: Extensive Evaluation for  Grounding Language Models to Knowledge Bases                    |             |               |                                                                                            |              |
+| [[Distribution Shifts Are Bottlenecks]]: Extensive Evaluation for  Grounding Language Models to Knowledge Bases                    |             |               | 현재 벤치마크의 한계점 제시(분포 문제), KBQA모델의 robortness를 4가지 측면에서 평가, 새로운 평가 프로토콜 및 데이터 증강기법 제안         |              |
+| [[Multi-granularity Temporal Question Answering over Knowledge Graphs]]                                                            | ACL’23      |               |                                                                                            |              |
 
 ***
 
@@ -25,6 +26,7 @@
 - [ ] Multi-hop Question Answering over Knowledge Graphs using Large Language Models, *arXiv 'Feb2024*
 	* hop수에 따른 다양한 실험 결과를 제시하려나?
 - [ ] Diffusion Language Model?
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation, ICLR'25
 
 **KGQA Basic 논문**
 - [ ] RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering

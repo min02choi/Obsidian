@@ -1,6 +1,10 @@
 ---
 aliases:
 ---
+논문 제목: Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+![[Pasted image 20250314104912.png]]
+
+***
 ### **1. 연구 배경 (Background)**
 
 언어 모델(LMs)을 지식 베이스(KB)와 연결하는 것은 더 풍부하고 정확한 정보를 얻는 데 도움이 되지만, **데이터 분포의 변화(Distribution Shifts)** 로 인해 어려움을 겪음. 기존 벤치마크는 모델의 강건성을 공정하게 평가하지 못하고, 새로운 스키마(구조), 언어적 변형, 소수 샘플 학습(few-shot learning) 등에 대한 적응력이 부족함.

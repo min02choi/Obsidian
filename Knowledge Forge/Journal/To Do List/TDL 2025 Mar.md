@@ -310,7 +310,7 @@
 - [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
 
 **DAILY**
-- [ ] 오늘의 요리: 오믈렛
+- [x] 오늘의 요리: 오믈렛/오므라이스
 	- 아니 왜 오늘 아무것도 땡기지가 않지
 	- 집 갈 떄 맥주 사가기? 과자? 
 
@@ -320,20 +320,24 @@
 >불금이다 히히*
 
 **SCEDULE**
-- [ ] 14:00 KEN 미팅 공D916
+- [x] 14:00 KEN 미팅 공D916
 
 **STUDY**
-- [ ] 소에) HW #1 보고서 작성 시작
+- [x] 소에) HW #1 보고서 작성 시작, 제출까지 완료
 	- 초안은 완성했음,  docs로 옮기고 다듬어야 함
 	- AutoGen 돌려보기, 간단한 예제 만들기, 사례조사 완료
 - [ ] 데마) 프로젝트 생각해보기(사실 주제파악 먼저 하기)
-- [ ] SR KG PLM fine-tuning 리서치(due.18(화))
+- [x] SR KG PLM fine-tuning 리서치(due.18(화))
+	- 미단언니한테 리서치 방법 물어보기
 	- 개념부터 알아야 할듯ㅎㅎ
-- [ ] KEN 미팅하기 전 내용 정리하기
+- [x] KEN 미팅하기 전 내용 정리하기
 	- 이번주 한 일 정리, 다음주 일 정리
-- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases, EACL'24
+- [ ] Multi-granularity Temporal Question Answering over Knowledge Graphs. ACL'23
 
 **DAILY**
+- [ ] 스튜디오 아름답다 이미지 피드백 사항 보내기
 - [ ] 불금! 영화보거나 그런거 하기!! 맥주와 안주!!
+	- 오늘 한화 경기 하는거같던데? -> 쏘라이팅 먹을듯
 - [ ] 오늘의 요리: 감자뇨끼
 	- 재료 한번 확인해보기
