@@ -269,7 +269,7 @@
 - [x] 열심히 살자. 부지런해지자. 진짜 논문 읽어라 제발
 
 ***
-#### 25.03.01(수)
+#### 25.03.12(수)
 >*오늘이야말로 논문을 읽을 수 있는 절호의 찬스
 >독수리키링독수리키링독수리키링독키독키*
 
@@ -278,7 +278,7 @@
 - [x] 14:00 안전교육 공C040
 
 **STUDY**
-- [ ] 소에) HW 확인 및 일정 적기, 생각좀 해보기
+- [x] 소에) HW 확인 및 일정 적기, 생각좀 해보기
 - [ ] 데마) 프로젝트 생각해보기(사실 주제파악 먼저 하기)
 - [x] SR/GCR 관련 할 일 있으면 하기
 	- WebQSP 데이터셋 데이터 개수가 1628개가 맞는지? hf에는 1639라는거 같긴 함 -> None은 안불러와지는듯?(11개)
@@ -290,7 +290,7 @@
 	- 아 샤인머스켓 더 늦기 전에 먹어야함(다 먹음!)
 
 ***
-#### 25.03.01(목)
+#### 25.03.13(목)
 >*첫 미팅 $w/$ SR! 화이팅이다*
 
 **SCEDULE**
@@ -315,7 +315,7 @@
 	- 집 갈 떄 맥주 사가기? 과자? 
 
 ***
-#### 25.03.13(금)
+#### 25.03.14(금)
 >*좀 빠릿빠릿하게 움직이기, 논문 읽기
 >불금이다 히히*
 
@@ -336,8 +336,94 @@
 - [ ] Multi-granularity Temporal Question Answering over Knowledge Graphs. ACL'23
 
 **DAILY**
-- [ ] 스튜디오 아름답다 이미지 피드백 사항 보내기
-- [ ] 불금! 영화보거나 그런거 하기!! 맥주와 안주!!
+- [x] 스튜디오 아름답다 이미지 피드백 사항 보내기
+- [x] 불금! 영화보거나 그런거 하기!! 맥주와 안주!!
 	- 오늘 한화 경기 하는거같던데? -> 쏘라이팅 먹을듯
-- [ ] 오늘의 요리: 감자뇨끼
+- [x] 오늘의 요리: 감자뇨끼-> 쏘라이팅
 	- 재료 한번 확인해보기
+
+***
+#### 25.03.15(토)
+>*숙취 미쳤다;;*
+
+**SCEDULE**
+- [x] 없어용. 점심 먹고 본가가기
+
+**STUDY**
+- [ ] SR KG PLM fine-tuning 리서치(due.18(화))
+
+**DAILY**
+- [x] 퍼스트스탠드 토너먼트-4강: HLE vs TES
+
+***
+#### 25.03.16(일)
+>*오늘의 다짐*
+
+**SCEDULE**
+- [x] 딱히 없음.
+
+**STUDY**
+- [x] 소에) 과제 제출 확인
+- [x] SR KG PLM fine-tuning 리서치(due.18(화))
+	- 2025부터 거꾸로 찾아보기(오늘은 2025 위주)
+	- 오빠한테 프롬프트 보내보기
+
+**DAILY**
+- [x] 퍼스트스탠드 토너먼트-결승: HLE vs KC
+- [x] 돌아오는 주 준비
+	- 에어팟 대체 찾아보기
+
+***
+#### 25.03.17(월)
+>*이번 한 주도 화이팅해보자!*
+
+**SCEDULE**
+- [x] 10:00 ICL 랩미팅 공D916
+- [x] 15:00 소프트웨어에이전트 공D508
+
+**STUDY**
+- [x] SR KG PLM fine-tuning 리서치(due.18(화))
+	- 2025부터 거꾸로 찾아보기
+	- 오빠한테 프롬프트 보내보기
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases, EACL'24
+	- 마무리 짓기
+- [ ] Multi-granularity Temporal Question Answering over Knowledge Graphs. ACL'23
+	- SR에 도움되는 논문
+- [x] GCR 모델 내 계정으로 옮기기 -> 구 계정은 윤정언니 주기
+	- GenPath, KGQA부분 옮기면 됨(나머지 다 함)
+- [x] IR 방식, SR? 방식 알아보기
+- [x] Google Scholar KG관련 새로운 논문 보기, 읽을 논문 리스트업
+
+**DAILY**
+- [x] 오늘의 요리: 감자뇨끼
+	- 감자 빨리 해치워야 함;;
+- [x] 연세 후리스 살려면 빨리 사기
+- [x] 런닝 하니? 물어보기
+	- 4월...? 에 하기로 ㅋㅋㅋ근데 아마 안할듯
+- [x] 연구비 4월 25일에 260만으로 들어온다고 한다ㅜㅜ 그래도 세금은 안뗌...
+
+***
+#### 25.03.01(화)
+>*지각 절대 노노노노노노노 재깍 일어나라*
+
+**SCEDULE**
+- [ ] 09:00 자연어처리를 위한 딥러닝 공A343
+- [ ] 10:00 데이터마이닝 공A542
+
+**STUDY**
+- [ ]  SR KG PLM fine-tuning 리서치(due.18(화))
+	- 이거 근데 언제까지임? 금요일까지라면 하루에 3개씩 찾기
+	- 2025부터 거꾸로 찾아보기
+	- 오빠한테 프롬프트 보내보기
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases, EACL'24
+	- 마무리 짓기
+- [ ] Multi-granularity Temporal Question Answering over Knowledge Graphs. ACL'23
+	- SR에 도움되는 논문
+- [ ] GCR 모델 내 계정으로 옮기기 -> 구 계정은 윤정언니 주기
+	- GenPath, KGQA부분 옮기면 됨(나머지 다 함)
+- [ ] IR 방식, SR? 방식 알아보기
+- [ ] Google Scholar KG관련 새로운 논문 보기, 읽을 논문 리스트업
+
+**DAILY**
+- [ ] 오늘의 요리: 비빔국수?
+- [ ] 도시가스 납부(due.20일)

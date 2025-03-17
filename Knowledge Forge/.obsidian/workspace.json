@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "c3d6dc3dc6e9f178",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "id": "2b9c43c50c93eaac",
+            "id": "a14b181b25f81f69",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -115,17 +115,17 @@
             }
           },
           {
-            "id": "5aed36d3d11c5b0f",
+            "id": "2b9c43c50c93eaac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Paper List.md",
+                "file": "Project/Samsung Research 2025/KG PLM fine-tuned research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paper List"
+              "title": "KG PLM fine-tuned research"
             }
           },
           {
@@ -298,17 +298,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b9c43c50c93eaac",
+  "active": "a14b181b25f81f69",
   "lastOpenFiles": [
-    "Paper/Knowledge Graph/Multi-granularity Temporal Question Answering over Knowledge Graphs.md",
+    "Journal/To Do List/TDL Template.md",
     "Journal/To Do List/TDL 2025 Mar.md",
+    "Project/Samsung Research 2025/KG PLM fine-tuned research.md",
+    "Project/Samsung Research 2025",
+    "Project",
+    "Paper/Knowledge Graph/Multi-granularity Temporal Question Answering over Knowledge Graphs.md",
     "Journal/Paper List.md",
     "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
     "Pasted image 20250314105014.png",
     "Paper/Knowledge Graph/Distribution Shifts Are Bottlenecks.md",
     "images/Pasted image 20250314104912.png",
     "Paper/How to read paper.md",
-    "Journal/To Do List/TDL Template.md",
     "Journal/SwallaSwalla.md",
     "Model Training Log/GCR.md",
     "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
@@ -343,8 +346,6 @@
     "Study/Algorithm",
     "Model Training Log",
     "Study/KG Terms",
-    "Paper/Knowledge Graph",
-    "Study/Methods",
     "Untitled.canvas"
   ]
 }
