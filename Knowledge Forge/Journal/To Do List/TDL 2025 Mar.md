@@ -403,27 +403,55 @@
 - [x] 연구비 4월 25일에 260만으로 들어온다고 한다ㅜㅜ 그래도 세금은 안뗌...
 
 ***
-#### 25.03.01(화)
+#### 25.03.18(화)
 >*지각 절대 노노노노노노노 재깍 일어나라*
 
 **SCEDULE**
-- [ ] 09:00 자연어처리를 위한 딥러닝 공A343
-- [ ] 10:00 데이터마이닝 공A542
+- [x] 09:00 자연어처리를 위한 딥러닝 공A343
+- [x] 10:00 데이터마이닝 공A542
 
 **STUDY**
-- [ ]  SR KG PLM fine-tuning 리서치(due.18(화))
+- [x]  SR KG PLM fine-tuning 리서치(due.18(화))
 	- 이거 근데 언제까지임? 금요일까지라면 하루에 3개씩 찾기
 	- 2025부터 거꾸로 찾아보기
 	- 오빠한테 프롬프트 보내보기
+- [x] GCR 모델 path reasoning 추출 과정 Llama2로 돌려보기(엥 성능 개잘나옴ㅋㅋ)
+	- webqsp, cwq에 대해서 Llama로 돌림
 - [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases, EACL'24
 	- 마무리 짓기
 - [ ] Multi-granularity Temporal Question Answering over Knowledge Graphs. ACL'23
 	- SR에 도움되는 논문
-- [ ] GCR 모델 내 계정으로 옮기기 -> 구 계정은 윤정언니 주기
+- [x] GCR 모델 내 계정으로 옮기기 -> 구 계정은 윤정언니 주기
 	- GenPath, KGQA부분 옮기면 됨(나머지 다 함)
-- [ ] IR 방식, SR? 방식 알아보기
-- [ ] Google Scholar KG관련 새로운 논문 보기, 읽을 논문 리스트업
+- [x] IR 방식, SR? 방식 알아보기
+- [x] Google Scholar KG관련 새로운 논문 보기, 읽을 논문 리스트업
 
 **DAILY**
-- [ ] 오늘의 요리: 비빔국수?
+- [x] 고돌사 김치만(18:30까지 충무로)
+- [ ] 도시가스 납부(due.20일)
+
+***
+#### 25.03.19(수)
+>*리서치, 논문 읽기 주력. 리서치 할 때 내 머리에 넣으면서 할것!!*
+
+**SCEDULE**
+- [ ] 14:00 온톨로지공학특강 청강? 강의실 어디냐
+- [ ] 스케쥴 없음?
+
+**STUDY**
+- [ ] SR KG PLM fine-tuning 리서치(due.18(화)? 금?)
+	- 이거 근데 언제까지임? 금요일까지라면 하루에 3개씩 찾기
+	- 2025부터 거꾸로 찾아보기
+	- docx에서 옵시디언으로 옮기기, 리스트정리하기
+- [ ] GCR 훈련 최종 결과 및 리소스 사용량 정리하기(엥 성능 개잘나옴ㅋㅋ)
+	- GPT API 사용량,  정확도 및 hit@1 결과
+- [ ] GCR 모델 final reasoing GPT로 돌리기
+	* GPT3.5-turbo, GPT-4o-mini
+- [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases, EACL'24
+	- 진짜 읽어라. 읽고 다른거도 빨리 읽어라
+- [ ] 최근 KG 동향 파악하기(Google Scholar 등 확인)
+	- KG 관련 terms도 공부하기(SR, IR)
+
+**DAILY**
+- [ ] 오늘의 요리: ?
 - [ ] 도시가스 납부(due.20일)
