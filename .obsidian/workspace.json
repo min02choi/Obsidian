@@ -8,17 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6daa67393710ffad",
+            "id": "4d6de41535b14b03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge Forge/Journal/To Do List/TDL 2025 Feb.md",
+                "file": "Knowledge Forge/Journal/Paper List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TDL 2025 Feb"
+              "title": "Paper List"
+            }
+          },
+          {
+            "id": "ca65144fc9c49672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge Forge/Paper/Knowledge Graph/Reasoning on Graphs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reasoning on Graphs"
+            }
+          },
+          {
+            "id": "06dccebbbaf59934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge Forge/Model Training Log/GCR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GCR"
             }
           },
           {
@@ -34,23 +62,8 @@
               "icon": "lucide-file",
               "title": "TDL 2025 Mar"
             }
-          },
-          {
-            "id": "90f1c5e5b39ec527",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge Forge/Journal/To Do List/TDL Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TDL Template"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "942f39c54b85e461",
@@ -169,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge Forge/Journal/To Do List/TDL 2025 Mar.md",
+                "file": "Knowledge Forge/Journal/Paper List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TDL 2025 Mar"
+              "title": "Outline of Paper List"
             }
           }
         ],
@@ -183,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 268.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,10 +210,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9629e9e4b0745058",
+  "active": "4d6de41535b14b03",
   "lastOpenFiles": [
-    "Knowledge Forge/Journal/To Do List/TDL Template.md",
+    "Knowledge Forge/Paper/Knowledge Graph/Reasoning on Graphs.md",
+    "Knowledge Forge/Journal/Paper List.md",
+    "Knowledge Forge/Paper/Knowledge Graph/Reasoning with Trees.md",
     "Knowledge Forge/Journal/To Do List/TDL 2025 Mar.md",
+    "Knowledge Forge/Model Training Log/GCR.md",
+    "Knowledge Forge/images/Pasted image 20250314104912.png",
+    "Knowledge Forge/images/Pasted image 20250310132316.png",
+    "Knowledge Forge/Project/Samsung Research 2025/KG PLM fine-tuned research.md",
+    "Knowledge Forge/Project/Samsung Research 2025",
+    "Knowledge Forge/Project",
+    "Knowledge Forge/Pasted image 20250314105014.png",
+    "Knowledge Forge/Paper/Knowledge Graph/Multi-granularity Temporal Question Answering over Knowledge Graphs.md",
+    "Knowledge Forge/Paper/Knowledge Graph/Distribution Shifts Are Bottlenecks.md",
+    "Knowledge Forge/Journal/To Do List/TDL Template.md",
     "Knowledge Forge/Journal/To Do List/TDL 2025 Feb.md",
     "Knowledge Forge/Paper/How to read paper.md",
     "Testing.md",
@@ -211,9 +238,6 @@
     "Knowledge Forge/images/paper",
     "Knowledge Forge/images/Pasted image 20250307175403.png",
     "Knowledge Forge/images/Pasted image 20250307160626.png",
-    "Knowledge Forge/images/Pasted image 20250304102741.png",
-    "Knowledge Forge/images/Pasted image 20250303174130.png",
-    "Knowledge Forge/images/Pasted image 20250228173739.png",
     "Knowledge Forge/Study/Query/Freebase Query Language(FQL).md",
     "Knowledge Forge/Study/Query",
     "Knowledge Forge/Study/Methods/Byte-Pair Encoding(BPE).md",
@@ -221,7 +245,6 @@
     "Knowledge Forge/Study/Datasets",
     "Knowledge Forge/Study/Algorithm/MCTS(Monte Carlo Tree Search).md",
     "Knowledge Forge/Paper/Knowledge Graph/Rng-KBQA.md",
-    "Knowledge Forge/Paper/Knowledge Graph/Reasoning with Trees.md",
     "Knowledge Forge/Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
     "Knowledge Forge/Journal/To Do List",
     "Knowledge Forge/Journal/Questionaries.md",
@@ -230,18 +253,10 @@
     "Cooking Recipe/Japaneese",
     "Cooking Recipe",
     "Testing Obsidian.md",
-    "Knowledge Forge/Paper/Knowledge Graph/Reasoning on Graphs.md",
     "Knowledge Forge/Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
     "Knowledge Forge/Paper/Knowledge Graph/Plan-and-Solve Prompting.md",
     "Knowledge Forge/Study/KG Terms/Triple.md",
-    "Knowledge Forge/Study/Methods/Word-Piece Tokenization.md",
-    "Knowledge Forge/Study/Methods/Sementic Parsing Methods.md",
-    "Knowledge Forge/Study/Methods/BPE(Byte-Pair Encoding).md",
-    "Knowledge Forge/Study/Algorithm/Beam-Search.md",
-    "Knowledge Forge/Paper/NLP/Bert.md",
     "Knowledge Forge/Study/Methods",
-    "Knowledge Forge/Study/KG Terms",
-    "Knowledge Forge/Study/Algorithm",
-    "Knowledge Forge/Paper/NLP"
+    "Knowledge Forge/Study/KG Terms"
   ]
 }

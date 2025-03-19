@@ -141,3 +141,19 @@ RoG는 다음 확률을 최적화하는 문제로 정의됨:
 
 
 ### Reasoning
+
+***
+
+### Question while reading the Paper
+
+#### Question #1
+근데 이해가 안되는 건 1단계에서 사용자가 질문을 하잖아. 그러면 LLM이 관계 경로를 생성한다매. 근데 이때 KG를 보면서 하는거야? 만약 맞다면, 2단계와 1단계를 분리하는 이유가 뭐지? 논문에서 //1) given a question, we first prompt LLMs to generate several relation paths that are grounded by KGs as plans.// 이 부분에서, 'that are grounded by KGs as plans.'이 부분이 이해가 안가. KG를 안보고 LLM이 planning을 하는데 어떻게 'grounded by KG' 가 될 수 있지?
+
+#### Answer
+직접적으로 KG를 사용하지 않는게 맞음. 하지만 LLM은 사전 학습 과정에서 방대한 지식 그래프 기반의 데이터를 학습했을 가능성이 높다. 따라서 KG의 일반적인 구조나 관계 패턴을 어느 정도 알고 있음.
+- 예를 들어, "파리(Paris) → 프랑스(France) → 유럽(Europe)" 같은 일반적인 관계는 LLM의 잠재 지식에 포함되어 있을 수 있음. 이 잠재 지식을 기반으로 초기 경로를 생성하는 것.
+
+**Grounded by KGs**는 **직접적으로 KG 데이터를 보는 것**이 아니라, LLM이 가진 **잠재적 지식**과 **KG의 도메인적 이해**를 활용하여 **계획(Plan)을 세운다**는 의미이다. KG에 있는 실제 데이터를 탐색하는 것은 **2단계에서 이루어지는 작업**이고, 1단계는 KG 기반의 일반적인 관계 경로를 **예측하고 제안**하는 단계라고 볼 수 있다.
+
+즉,
+1단계는 **가능성 있는 경로를 제안**하고, 2단계에서 **실제 데이터를 기반으로 검증**함으로써 **잠재적 지식**과 **현실적 지식**을 연결하는 방식이라고 볼 수 있다.
