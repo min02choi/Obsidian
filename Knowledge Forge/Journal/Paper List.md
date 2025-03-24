@@ -15,7 +15,7 @@
 | [[Reasoning on Graphs]]: Faithful and Interpretable Large Language Model Reasoning<br>                                             | ICLR'24     |               | planning-retrieval-reasoning framework 제안. LLM으로 질문에 대한 추론 경로 생성-> KG기반 실제 유효한 경로 탐색-> 최종 답변과 설명 제공 |              |
 | [[Graph-Constrained Reasoning]]: Faithful Reasoning on Knowledge Graphs with Large Language Models                                 | ArXiv'24    | 250226        | RoG의 후속작. KG-Trie와 KG specialized LLM을 사용하여 reasoning path 도출, 이를 기반으로 General LLM로 최종답 도출          |              |
 | [[Reasoning with Trees]]: Faithful Question Answering over Knowledge Graph                                                         |             |               |                                                                                                     |              |
-| [[Rng-KBQA]]: Generation Augmented Iterative Ranking for Knowledge Base Question Answering                                         |             |               | 전통 KBQA 방식인 ranking, generaion 방식의 결합                                                               |              |
+| [[Rng-KBQA]]: Generation Augmented Iterative Ranking for Knowledge Base Question Answering                                         |             |               | 전통 KBQA 방식인 ranking, generation 방식의 결합                                                              |              |
 | [[Query Instruction Parsing Plugin\|Effective Instruction Parsing Plugin for Complex Logical Query Answering on Knowledge Graphs]] |             | 250307        |                                                                                                     | FOL query    |
 | [[Distribution Shifts Are Bottlenecks]]: Extensive Evaluation for  Grounding Language Models to Knowledge Bases                    |             |               | 현재 벤치마크의 한계점 제시(분포 문제), KBQA모델의 robortness를 4가지 측면에서 평가, 새로운 평가 프로토콜 및 데이터 증강기법 제안                  |              |
 | [[Multi-granularity Temporal Question Answering over Knowledge Graphs]]                                                            | ACL’23      |               |                                                                                                     |              |
@@ -58,6 +58,9 @@
 - [ ] FC-KBQA: A Fine-to-Coarse Composition Framework for Knowledge Base Question Answering, ACL’23
 * KGQA 논문 읽기 순서(고민되네)
 	![[Pasted image 20250303174130.png]]
+
+KG
+https://www.microsoft.com/en-us/research/blog/introducing-kblam-bringing-plug-and-play-external-knowledge-to-llms/?utm_source=tldrai
 
 그래프 엣지 제거하고 싶으면 이런식으로도 가능~
 [보이고 싶은 링크](보이고 싶은 링크)

@@ -1,4 +1,7 @@
-
+---
+aliases:
+  - 2025년 3월
+---
 > 3월, 본격적인 대학원 생활 시작이다! 부지런하게 살자!
 >  * 논문 많이 읽기, 다영한 분야 접하기
 
@@ -435,23 +438,125 @@
 >*리서치, 논문 읽기 주력. 리서치 할 때 내 머리에 넣으면서 할것!!*
 
 **SCEDULE**
-- [ ] 14:00 온톨로지공학특강 청강? 강의실 어디냐
-- [ ] 스케쥴 없음?
+- [x] 14:00 온톨로지공학특강 청강? 강의실 어디냐
+- [x] 스케쥴 없음?
 
 **STUDY**
-- [ ] SR KG PLM fine-tuning 리서치(due.18(화)? 금?)
+- [x] SR KG PLM fine-tuning 리서치(due.21 금)
 	- 이거 근데 언제까지임? 금요일까지라면 하루에 3개씩 찾기
 	- 2025부터 거꾸로 찾아보기
 	- docx에서 옵시디언으로 옮기기, 리스트정리하기
-- [ ] GCR 훈련 최종 결과 및 리소스 사용량 정리하기(엥 성능 개잘나옴ㅋㅋ)
+- [x] GCR 훈련 최종 결과 및 리소스 사용량 정리하기(엥 성능 개잘나옴ㅋㅋ)
 	- GPT API 사용량,  정확도 및 hit@1 결과
-- [ ] GCR 모델 final reasoing GPT로 돌리기
+- [x] GCR 모델 final reasoing GPT로 돌리기
 	* GPT3.5-turbo, GPT-4o-mini
 - [ ] Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases, EACL'24
 	- 진짜 읽어라. 읽고 다른거도 빨리 읽어라
 - [ ] 최근 KG 동향 파악하기(Google Scholar 등 확인)
 	- KG 관련 terms도 공부하기(SR, IR)
+- [x] 데센 아저씨 계정 내 계정으로 옮기기
+	- result_history_3090_webqsp부터 하면 됨. 다 하고 환경설정까지 할 것, 가장 상위에 있는 GenPath 도 옮길걸
 
 **DAILY**
-- [ ] 오늘의 요리: ?
-- [ ] 도시가스 납부(due.20일)
+- [x] 오늘의 요리: 야끼파스타
+	* 와 진짜 맛있음
+- [x] 도시가스 납부(due.20일)
+
+***
+#### 25.03.20(목)
+>*뭔가 여러개를 보기는 보는데 머리에 안들어오는 느낌... 정말 이해해가면서 논문의 내용 읽기
+>논문 하나 정해서 그거 PPT 만들어보기*
+
+**SCEDULE**
+- [x] 10:00 자연어처리를 위한 딥러닝 공A343 -> 온라인 대체
+- [x] 13:00 SR 미팅 공D817
+
+**STUDY**
+- [x] SR KG PLM fine-tuning 리서치
+	* 근데 오늘 회의 결과에 따라 바뀔 수도 있음
+- [x] GCR 훈련 최종 결과 및 리소스 사용량 정리하기
+- [ ] SubGraphRAG GitHUB clone해서 내 계정에 생성
+	* 논문 읽고 코드 실행해보기
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+	- 관련 개념 이해하기: RAG
+- [ ] 논문 하나 정해서 그거 PPT 만들어보기
+	* SR 메인 키페이퍼도 좋고, google scholar에서 메일 온 논문도 좋음. 그냥 너가 흥미로워보이는 논문 하나 정해서 심도있게 읽고, 내용을 완벽하게 이해해보셈
+- [ ] KEN 내일 미팅 준비하기(노션 작성)
+
+**DAILY**
+- [x] 옵시디언 파일 정리
+- [x] 18:30 나영이랑 저녁(숙대 가기로 함. 토담. 홍곱창?)
+	- 스토리 정리ㅋㅋ
+- [x] 내일 요가 가는거 챙겨갈거(옷, 샤워) 물어보기
+	- 그냥 운동복만 챙겨가면 될듯?
+
+***
+#### 25.03.21(금)
+>*YOGA*
+
+**SCEDULE**
+- [x] 13:30 KEN 미팅 공D916
+
+**STUDY**
+- [x] 소에) Homework #1 보강하기(docs 작성)
+	- LLM Agent 정해서 코드 짧게 구현해보기
+	- 깃허브에 추가 여부 결정하기
+- [x] SubgraphRAG 코드 reasoning 해보기
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+- [x] KEN 미팅 준비하기(노션 작성)
+	- 한 일: 수업 관련, SR, 논문 목록
+
+**DAILY**
+- [x] 18:30 요가, 18:00에 1층에서 본방 사람들이랑 만나기
+	- 옷 미리 갈아입고 있기
+
+***
+#### 25.03.22(토)
+>*그냥 본가가기*
+
+**SCEDULE**
+- [x] 본가 가기
+
+**STUDY**
+- [x] 소에) Homework #1 보강하기(docs 작성)
+	- LLM Agent 정해서 코드 짧게 구현해보기
+
+**DAILY**
+- [x] 오늘의 요리(?): 쌀국수 끓여먹기ㅋㅋ
+- [x] 방 청소, 빨래 개기
+
+***
+#### 25.03.01(일)
+>*운동 결정*
+
+**SCEDULE**
+- [x] 집 가기
+
+**STUDY**
+- [x] 소에) 제출 확인
+
+**DAILY**
+- [x] 운동 뭐라도 하나할 거 정하기
+
+***
+#### 25.03.24(월)
+>*문제 해결 후 요가 정신수련...*
+
+**SCEDULE**
+- [ ] 10:00 ICL 랩미팅 공D916
+- [ ] 14:00 SR 미팅 ($w.$ 교수님) 교수실
+- [ ] 15:00 소프트웨어에이전트 공D508
+
+**STUDY**
+- [ ] SubgraphRAG 코드 reasoning 해보기
+	- wandb 로그인 후 훈련 로그 확인해보기
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+- [ ] 공부 열심히 해라
+
+**DAILY**
+- [ ] 오늘의 요리: 오므라이스
+	- 밥에 당근, 새우 이런거 넣기
+- [ ] 18:30 힐링요가원 상담 후 21:10 바로 수업 해보기?
+	* 이따 전화 한번 해서 상담받고 바로 수업 들어도 되냐고 물어보기
+- [ ] 쓰레기 무단투기 관련 전화하기
+	* 한 10-15일 뒤로 문자로 과태료 날아간다고 함

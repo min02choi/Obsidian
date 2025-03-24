@@ -1,0 +1,4 @@
+---
+aliases:
+  - SubgraphRAG Train Log
+---

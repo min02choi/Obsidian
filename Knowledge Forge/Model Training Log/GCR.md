@@ -431,7 +431,8 @@ current
 * output tokens: 
 * charges: 0.006$
 
-
+***
+### GCR 다시 돌리기!!
 
 환경
 * **서버 위치**: 데이터센터
@@ -465,6 +466,93 @@ gpt-4o-mini API request 관련
 - 총 데이터 수: 3531개
 - 전체 소요 시간: 4m 37s
 - 개당 평균 소요 시간: 0.0785s
+
+***
+### GCR 다시 돌리기!!-decoding 단계에서 Llama2 사용 (3.19)
+
+
+환경
+* **서버 위치**: 데이터센터
+- **GPU 개수**: 2
+- **파티션**: big_suma_rtx4090
+
+모델 정보
+- Reasoning Path 과정: `Llama-2-7b`
+- Reasoning Final Answer: 
+	- `Llama-3.1-8B`
+	- `gpt-3.5-turbo`
+	- `gpt-4o-mini`
+
+#### **WebQSP 데이터셋**
+* 사용 데이터셋: rmanluo/RoG-webqsp의 테스트 데이터(WebQTest-n)
+    - **총 데이터 수**: 1628개
+
+**STEP1: Graph-constrained Decoding**
+Llama-2-7B(성능지표 및 테스트 결과)
+* Accuracy: 78.87253
+- Hit: 92.19422
+- F1: 58.052423
+- 전체 소요 시간: 1h 29m19s
+- 개당 평균 소요 시간: 3.3s
+
+**STEP2: Graph Inductive reasoning**
+모델 별 성능지표 및 테스트 결과
+1) Llama-3.1-8B
+* Accuracy: 73.762834
+- Hit: 88.39066
+- F1: 69.39341
+- 전체 소요 시간: 16m 35s
+- 개당 평균 소요 시간: 0.61s
+
+2) gpt-3.5-turbo
+* Accuracy: 73.720639
+- Hit: 88.88206
+- F1: 70.61227
+- 전체 소요 시간: 1m 59s
+- 개당 평균 소요 시간: 0.073s
+
+3) gpt-4o-mini
+* Accuracy: 75.20916
+- Hit: 89.496314
+- F1: 71.97927
+- 전체 소요 시간: 2m 20s
+- 개당 평균 소요 시간: 0.086s
+
+#### **CWQ 데이터셋**
+* 사용 데이터셋: rmanluo/RoG-cwq의 테스트 데이터
+    - **총 데이터 수**: 3531개
+
+**STEP1: Graph-constrained Decoding**
+Llama-2-7B(성능지표 및 테스트 결과)
+* Accuracy: 64.58985
+- Hit: 69.147727
+- F1: 39.4447683
+- 전체 소요 시간: 3h 21m 43s
+- 개당 평균 소요 시간: 0.086s
+
+**STEP2: Graph Inductive reasoning**
+모델 별 성능지표 및 테스트 결과
+1) Llama-3.1-8B
+* Accuracy: 56.225953
+- Hit: 61.82384
+- F1: 49.889388
+- 전체 소요 시간: 26m 43s
+- 개당 평균 소요 시간: 3.40s
+
+2) gpt-3.5-turbo
+* Accuracy: 56.39673
+- Hit: 61.62560
+- F1: 52.05602
+- 전체 소요 시간: 3m 41s
+- 개당 평균 소요 시간: 0.454s
+
+3) gpt-4o-mini
+* Accuracy: 59.80426
+- Hit: 65.33559
+- F1: 53.48948
+- 전체 소요 시간: 4m 41s
+- 개당 평균 소요 시간: 0.08s
+
 
 ***
 ## Appendix
