@@ -2,6 +2,8 @@
 aliases:
   - GCR
 ---
+#KGQA 
+
   논문 제목: Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models
 * [[Reasoning on Graphs]]의 후속작
 * 훈련 결과: [[GCR|GCR Training Log]]

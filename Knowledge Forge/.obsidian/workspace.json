@@ -14,6 +14,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Paper/Knowledge Graph/Simple is Effective.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple is Effective"
+            }
+          },
+          {
+            "id": "f32a281b22b703c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Training Log/GCR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GCR"
+            }
+          },
+          {
+            "id": "15741a7087f69cba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Journal/Paper List.md",
                 "mode": "source",
                 "source": false
@@ -28,54 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/To Do List/TDL Template.md",
+                "file": "Paper/Knowledge Graph/Dual Reasoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TDL Template"
-            }
-          },
-          {
-            "id": "9e5e736829c0f0ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/How to read paper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How to read paper"
-            }
-          },
-          {
-            "id": "e3fbb02222fa7c81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/To Do List/TDL 2025 Mar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TDL 2025 Mar"
-            }
-          },
-          {
-            "id": "f25e46f56261716f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/To Do List/TDL Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TDL Template"
+              "title": "Dual Reasoning"
             }
           },
           {
@@ -91,23 +77,9 @@
               "icon": "lucide-file",
               "title": "Graph-Constrained Reasoning"
             }
-          },
-          {
-            "id": "0453c20a222569c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/Knowledge Graph/Simple is Effective.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Simple is Effective"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
         "id": "c3d6dc3dc6e9f178",
@@ -129,6 +101,20 @@
             }
           },
           {
+            "id": "40e20f6a06a856fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Graph-Constrained Reasoning"
+            }
+          },
+          {
             "id": "ae150aad4ef4ec29",
             "type": "leaf",
             "state": {
@@ -140,20 +126,6 @@
               },
               "icon": "lucide-file",
               "title": "RAG"
-            }
-          },
-          {
-            "id": "0e18bcf13af90746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/How to read paper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How to read paper"
             }
           },
           {
@@ -185,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -340,46 +312,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0453c20a222569c4",
+  "active": "7a05fff7d173b62c",
   "lastOpenFiles": [
-    "Journal/To Do List/TDL Template.md",
+    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Paper/Knowledge Graph/Dual Reasoning.md",
+    "Study/Methods/RAG.md",
+    "Pasted image 20250326175938.png",
+    "Journal/SwallaSwalla.md",
+    "Paper/Knowledge Graph/Rng-KBQA.md",
     "Journal/To Do List/TDL 2025 Mar.md",
     "Journal/Paper List.md",
-    "Paper/Knowledge Graph/Simple is Effective.md",
     "Paper/How to read paper.md",
-    "Study/Methods/RAG.md",
+    "Paper/Knowledge Graph/Distribution Shifts Are Bottlenecks.md",
+    "Journal/To Do List/TDL Template.md",
+    "Model Training Log/GCR.md",
+    "Paper/Knowledge Graph/Simple is Effective.md",
+    "Model Training Log/SubgraphRAG.md",
     "Pasted image 20250320160430.png",
     "images/Pasted image 20250320145345.png",
     "images/Pasted image 20250314105014.png",
     "Journal/Questionaries.md",
-    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
     "Paper/Knowledge Graph/Reasoning with Trees.md",
     "Paper/Knowledge Graph/Multi-granularity Temporal Question Answering over Knowledge Graphs.md",
     "Journal/Journal Integrate.md",
     "Journal/To Do List/TDL 2025 Feb.md",
-    "Journal/SwallaSwalla.md",
     "Paper/Knowledge Graph/Reasoning on Graphs.md",
-    "Model Training Log/SubgraphRAG.md",
-    "Model Training Log/GCR.md",
     "Project/Samsung Research 2025/KG PLM fine-tuned research.md",
     "Project/Samsung Research 2025",
     "Project",
-    "Paper/Knowledge Graph/Distribution Shifts Are Bottlenecks.md",
     "images/Pasted image 20250314104912.png",
     "Paper/Knowledge Graph/Query Instruction Parsing Plugin.md",
     "images/Pasted image 20250310132316.png",
     "Journal/Model Train List.md",
     "images/Pasted image 20250307160626.png",
     "images/Pasted image 20250307175403.png",
-    "Paper/Knowledge Graph/Rng-KBQA.md",
     "Study/Datasets/informations of datasets.md",
     "images/paper1-transformer.png.md",
     "Study/Query/Freebase Query Language(FQL).md",
-    "Study/Algorithm/Beam-Search.md",
     "Study/Query",
     "images/Pasted image 20250304102741.png",
     "images/Pasted image 20250227171316.png",
-    "images/Pasted image 20250303174130.png",
     "Journal/To Do List",
     "images/paper",
     "images",

@@ -437,7 +437,7 @@ aliases:
 #### 25.03.19(수)
 >*리서치, 논문 읽기 주력. 리서치 할 때 내 머리에 넣으면서 할것!!*
 
-**SCEDULE**
+**SCHEDULE**
 - [x] 14:00 온톨로지공학특강 청강? 강의실 어디냐
 - [x] 스케쥴 없음?
 
@@ -467,7 +467,7 @@ aliases:
 >*뭔가 여러개를 보기는 보는데 머리에 안들어오는 느낌... 정말 이해해가면서 논문의 내용 읽기
 >논문 하나 정해서 그거 PPT 만들어보기*
 
-**SCEDULE**
+**SCHEDULE**
 - [x] 10:00 자연어처리를 위한 딥러닝 공A343 -> 온라인 대체
 - [x] 13:00 SR 미팅 공D817
 
@@ -494,7 +494,7 @@ aliases:
 #### 25.03.21(금)
 >*YOGA*
 
-**SCEDULE**
+**SCHEDULE**
 - [x] 13:30 KEN 미팅 공D916
 
 **STUDY**
@@ -514,7 +514,7 @@ aliases:
 #### 25.03.22(토)
 >*그냥 본가가기*
 
-**SCEDULE**
+**SCHEDULE**
 - [x] 본가 가기
 
 **STUDY**
@@ -529,7 +529,7 @@ aliases:
 #### 25.03.01(일)
 >*운동 결정*
 
-**SCEDULE**
+**SCHEDULE**
 - [x] 집 가기
 
 **STUDY**
@@ -542,21 +542,68 @@ aliases:
 #### 25.03.24(월)
 >*문제 해결 후 요가 정신수련...*
 
-**SCEDULE**
-- [ ] 10:00 ICL 랩미팅 공D916
-- [ ] 14:00 SR 미팅 ($w.$ 교수님) 교수실
-- [ ] 15:00 소프트웨어에이전트 공D508
+**SCHEDULE**
+- [x] 10:00 ICL 랩미팅 공D916
+- [x] 14:00 SR 미팅 ($w.$ 교수님) 교수실
+- [x] 15:00 소프트웨어에이전트 공D508
 
 **STUDY**
-- [ ] SubgraphRAG 코드 reasoning 해보기
+- [x] SubgraphRAG 코드 reasoning 해보기
 	- wandb 로그인 후 훈련 로그 확인해보기
-- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
-- [ ] 공부 열심히 해라
+- [x] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+	- 미팅 전 내용 이해하고 가기
+- [x] 공부 열심히 해라 넹...
 
 **DAILY**
-- [ ] 오늘의 요리: 오므라이스
+- [x] 오늘의 요리: 오므라이스
 	- 밥에 당근, 새우 이런거 넣기
-- [ ] 18:30 힐링요가원 상담 후 21:10 바로 수업 해보기?
+- [x] 18:30 힐링요가원 상담 후 21:10 바로 수업 해보기?
 	* 이따 전화 한번 해서 상담받고 바로 수업 들어도 되냐고 물어보기
-- [ ] 쓰레기 무단투기 관련 전화하기
+- [x] 쓰레기 무단투기 관련 전화하기
 	* 한 10-15일 뒤로 문자로 과태료 날아간다고 함
+
+***
+#### 25.03.25(화)
+>*부지런히 살자!! 요가하니까 뭔가 삶이 부지런해지는 느낌?
+>할거도 빠릿빠릿하게, 집중력있게 하자!
+>아침형 인간이 되자!*
+
+**SCHEDULE**
+- [x] 09:00 자연어처리를 위한 딥러닝 공A343
+- [x] 10:00 데이터마이닝 공A542
+	- 이번주 내로 주제, 미팅날짜 등 정해야함
+
+**STUDY**
+- [ ] 소에) homework#2 조사 및 시작하기
+- [x] 데마) 프로젝트 제안서 아이디어 고안하기
+- [x] SubgraphRAG 코드 흐름 이해하기
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+	- 진짜 너 이거 읽어라
+* [ ] Google Scholar 최근 발매 논문 리스트 확인 및 흥미로운것 읽어보기
+
+**DAILY**
+- [ ] 런닝 하니? ~~아니요ㅎㅎ 힘들다~~
+- [x] 오늘의 요리: 팟타이 볶음밥
+	* 장볼것: 숙주, 계란, 고추장(?) -> 아니 숙주 너무 많아서 못삼ㅜ
+
+***
+#### 25.03.26(수)
+>*일주일의 절반 왔다!! 힘내자*
+
+**SCHEDULE**
+- [x] 14:00 온톨로지공학특강 청강 강의실 공A542
+
+**STUDY**
+- [ ] 소에) homework#2 조사 및 시작하기
+- [ ] 데마) 프로젝트 제안서 아이디어 고안하기
+	- 팀원 연락해서 어느방향으로 조사할 지 물어보기
+- [ ] SR SubgraphRAG 관련 코드 이해하기 및 훈련시키기
+	- retriever 3090으로 계속 해볼것...(왜 안됨?)
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+	- 슬 마무리 짓고 Dual? 읽어야 함. 적어도 온공특 시간에 개념이라도 알아보기
+- [ ] Dual Reasoning: A GNN-LLM Collaborative Framework for Knowledge Graph Question Answering, CPAL’25
+
+**DAILY**
+- [ ] 21:10 요가느림원 수업
+	- 퇴근 빨리 해서 저녁 일찍 먹고, 정리 다 하고 가기. 끝나고 와서 바로 씻고 잘 수 있도록
+- [ ] 오늘의 요리: 간장소면국수
