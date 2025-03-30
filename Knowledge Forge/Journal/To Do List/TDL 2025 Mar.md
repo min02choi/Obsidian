@@ -594,16 +594,108 @@ aliases:
 - [x] 14:00 온톨로지공학특강 청강 강의실 공A542
 
 **STUDY**
-- [ ] 소에) homework#2 조사 및 시작하기
-- [ ] 데마) 프로젝트 제안서 아이디어 고안하기
+- [x] 소에) homework#2 조사 및 시작하기
+- [x] 데마) 프로젝트 제안서 아이디어 고안하기
 	- 팀원 연락해서 어느방향으로 조사할 지 물어보기
-- [ ] SR SubgraphRAG 관련 코드 이해하기 및 훈련시키기
+- [x] SR SubgraphRAG 관련 코드 이해하기 및 훈련시키기
 	- retriever 3090으로 계속 해볼것...(왜 안됨?)
-- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
+- [x] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
 	- 슬 마무리 짓고 Dual? 읽어야 함. 적어도 온공특 시간에 개념이라도 알아보기
+- [x] Dual Reasoning: A GNN-LLM Collaborative Framework for Knowledge Graph Question Answering, CPAL’25
+
+**DAILY**
+- [x] 21:10 요가느림원 수업
+	- 퇴근 빨리 해서 저녁 일찍 먹고, 정리 다 하고 가기. 끝나고 와서 바로 씻고 잘 수 있도록
+- [x] 오늘의 요리: 간장소면국수
+
+***
+#### 25.03.27(목)
+>*화이팅*
+
+**SCHEDULE**
+- [x] 10:00 자연어처리를 위한 딥러닝 / 공A343
+- [x] 13:00 데이터마이닝 미팅 / 4공 마호가니
+
+**STUDY**
+- [x] 소에) homework#2 조사 및 시작하기
+- [x] 데마) 프로젝트 제안서 아이디어 고안하기, PPT 작성
+- [ ] Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation
 - [ ] Dual Reasoning: A GNN-LLM Collaborative Framework for Knowledge Graph Question Answering, CPAL’25
 
 **DAILY**
+- [x] 오늘의 요리: 알리오올리오 + 표고버섯 스프(이거 토요일로 돌리기?)
+- [x] 장볼 것: (통)마늘, 우유(450ml, 연세), 고추장, 떡, 오뎅/소세지?, 라면사리
+***
+#### 25.03.28(금)
+>*와 드디어 금요일이다*
+
+**SCHEDULE**
+- [x] 11:30 SR 미팅 $w.SR$ / 공D916
+- [x] 13:00 SR 미팅 / 공D916
+- [x] 14:00 KEN 미팅 / 공D916
+
+**STUDY**
+- [x] 소에) homework#2 조사 및 보고서 작성
+- [x] 데마) 프로젝트 제안서 PPT 작성 및 마무리, 다듬기
+	- 관련 논문 research
+	- research 분야로 가자 금융은 오바인듯
+- [x] KEN 미팅 전 로그 작성하기
+- [x] KEN 논문 읽 하나 추가하기(다른분야나, LLM Agent도 괜찮아 보임)
+- [ ] Dual Reasoning: A GNN-LLM Collaborative Framework for Knowledge Graph Question Answering, CPAL’25
+
+**DAILY**
+- [x] 18:00 요가느림원 수업
+- [x] 오늘의 요리: 로제 떡볶이 with 맥주!!
+	- 집 가는 길에 라면사리 사기!!
+
+***
+#### 25.03.29(토)
+>*오늘의 다짐*
+
+**SCHEDULE**
+- [x] 스케쥴 없음
+
+**STUDY**
+- [x] rms 서비스 인증받기!!!!(~31일까지)
+- [x] 소에) homework#2 조사 및 보고서 작성
+	- 관련 논문 research
+	- 발표 준비
+- [ ]  데마) 프로젝트 제안서 PPT 작성 및 마무리, 다듬기
+
+**DAILY**
+- [ ] 잘 챙겨서 본가 가기
+
+***
+#### 25.03.30(일)
+>*오늘의 다짐*
+
+**SCEDULE**
+- [x] 스케쥴 없음
+
+**STUDY**
+- [ ] 소에) homework#2 조사 및 보고서 제출
+	- 발표 준비(윗번호부터 한다)
+- [ ] 데마) 프로젝트 제안서 PPT 작성 및 마무리, 다듬기
+	- 발표 준비
+- [ ] SR) 모델의 온디바이스 탑재여부 조사, 정리
+	- ICL 구 모델 PPT 확인, 미단언니 자료 확인, onix
+
+**DAILY**
+- [ ] 잘 챙겨서 신촌으로 올라가기
+
+***
+#### 25.03.01(월)
+>*오늘의 다짐*
+
+**SCHEDULE**
+- [ ] 10:00 ICL 랩미팅 / 공D916
+- [ ] 10:40 SR 관련 규환오빠랑 미팅 / 장소미정
+- [ ] 13:00 랩세미나(졸업학기생들) / 공D916
+- [ ] 15:00 소프트웨어에이전트 / 공D508
+
+**STUDY**
+- [ ] 소에) homework#2 발표 준비
+
+**DAILY**
 - [ ] 21:10 요가느림원 수업
-	- 퇴근 빨리 해서 저녁 일찍 먹고, 정리 다 하고 가기. 끝나고 와서 바로 씻고 잘 수 있도록
-- [ ] 오늘의 요리: 간장소면국수
+- [ ] 오늘의 요리

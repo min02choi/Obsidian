@@ -46,17 +46,14 @@ aliases:
 ## 3. Contribution (주요 기여점)
 
 🔹 **Dual-Reasoning (DualR) 프레임워크 제안**
-
 - GNN과 LLM을 결합하여, LLM이 명시적 reasoning chains를 기반으로 더 논리적인 답변을 생성하도록 유도.
 - 기존 KG 기반 QA 모델이 놓쳤던 **"explicit graph learning"을 활용한 reasoning chain 학습 기법** 도입.
 
 🔹 **LLM-empowered GNN 모듈 도입**
-
 - GNN을 통해 KG에서 고품질의 추론 체인을 생성하고, 이를 바탕으로 LLM이 reasoning을 수행하도록 설계.
 - **Multiple-choice prompting 기법을 활용하여 LLM의 reasoning 과정 개선**.
 
 🔹 **효율성 & 해석 가능성 개선**
-
 - Extensive benchmark 실험에서 기존 모델 대비 **State-of-the-Art 성능** 달성.
 - **설명 가능성 (interpretability)**이 향상되어, 모델의 reasoning 과정이 더 명확해짐.
 
@@ -106,18 +103,14 @@ aliases:
 ## 6. Limitation (논문의 한계점 및 의문점)
 
 🔸 **GNN의 성능 의존성**
-
 - GNN이 reasoning chain을 정확하게 생성하지 못하면, 전체 모델 성능이 저하될 가능성 있음.
 
 🔸 **LLM과 GNN의 협력 과정 최적화 필요**
-
 - GNN이 제공하는 reasoning chain이 항상 최적의 방식으로 LLM을 보조하는지 추가 검증 필요.
 
 🔸 **Multiple-choice prompting 기법의 한계**
-
 - 다중 선택지를 이용한 prompting 기법이 최적의 reasoning 방식을 항상 제공한다고 단정하기 어려움.
 - 다양한 prompting 기법을 추가로 연구할 필요가 있음.
 
 🔸 **일반화 문제**
-
 - 특정 KGQA 데이터셋에서 좋은 성능을 보였지만, **더 다양한 도메인에서의 검증 필요**.
