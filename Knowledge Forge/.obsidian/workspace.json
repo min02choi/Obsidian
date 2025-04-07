@@ -6,7 +6,7 @@
       {
         "id": "48431dbf8619fcd9",
         "type": "tabs",
-        "dimension": 55.26315789473685,
+        "dimension": 48.87940234791889,
         "children": [
           {
             "id": "abedc805ea24086d",
@@ -77,27 +77,41 @@
               "icon": "lucide-file",
               "title": "Graph-Constrained Reasoning"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "c3d6dc3dc6e9f178",
-        "type": "tabs",
-        "dimension": 44.73684210526316,
-        "children": [
+          },
           {
-            "id": "fffbe9b86bd15635",
+            "id": "4c878f89021c6541",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/Knowledge Graph/Dual Reasoning.md",
+                "file": "Model Training Log/GCR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dual Reasoning"
+              "title": "GCR"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "c3d6dc3dc6e9f178",
+        "type": "tabs",
+        "dimension": 51.12059765208111,
+        "children": [
+          {
+            "id": "1798a643de165262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/To Do List/TDL Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TDL Template"
             }
           },
           {
@@ -136,34 +150,6 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "4705763823fe8aec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/How to read paper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How to read paper"
-            }
-          },
-          {
-            "id": "2b9c43c50c93eaac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/Samsung Research 2025/KG PLM fine-tuned research.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "KG PLM fine-tuned research"
             }
           }
         ],
@@ -324,22 +310,24 @@
   },
   "active": "c0f21f71770cdb25",
   "lastOpenFiles": [
-    "Journal/To Do List/TDL 2025-3 Mar.md",
+    "Model Training Log/GCR.md",
+    "Model Training Log/GNN-RAG.md",
     "Journal/To Do List/TDL 2025-4 Apr.md",
-    "Journal/Paper List.md",
-    "Journal/To Do List/TDL Template.md",
     "Paper/Knowledge Graph/Reasoning on Graphs.md",
-    "Paper/Knowledge Graph/Dual Reasoning.md",
+    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Paper/Knowledge Graph/GNN-RAG.md",
     "Paper/How to read paper.md",
+    "Journal/Paper List.md",
+    "Journal/To Do List/TDL 2025-3 Mar.md",
+    "Journal/To Do List/TDL Template.md",
+    "Paper/Knowledge Graph/Dual Reasoning.md",
     "Journal/To Do List/TDL 2025-2 Feb.md",
     "Project/Samsung Research 2025/KG PLM fine-tuned research.md",
     "Study/Methods/RAG.md",
     "Journal/SwallaSwalla.md",
-    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
     "Pasted image 20250326175938.png",
     "Paper/Knowledge Graph/Rng-KBQA.md",
     "Paper/Knowledge Graph/Distribution Shifts Are Bottlenecks.md",
-    "Model Training Log/GCR.md",
     "Paper/Knowledge Graph/Simple is Effective.md",
     "Model Training Log/SubgraphRAG.md",
     "Pasted image 20250320160430.png",
@@ -358,8 +346,6 @@
     "images/Pasted image 20250307160626.png",
     "images/Pasted image 20250307175403.png",
     "Study/Datasets/informations of datasets.md",
-    "images/paper1-transformer.png.md",
-    "Study/Query/Freebase Query Language(FQL).md",
     "Study/Query",
     "images/Pasted image 20250304102741.png",
     "images/Pasted image 20250227171316.png",

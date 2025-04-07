@@ -609,7 +609,7 @@ python workflow/predict_final_answer.py \
 
 terminal pronpt 예시
 ```text
-sbatch  --time=7:00:00 -q big_qos -p suma_rtx4090 ./scripts/run2.sh
+sbatch --time=7:00:00 -q big_qos -p suma_rtx4090 ./scripts/run2.sh
 ```
 * 근데 확실히 4090은 할당받는거 자체로도 오래 걸리드라...
 
