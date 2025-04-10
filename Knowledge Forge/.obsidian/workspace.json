@@ -6,7 +6,7 @@
       {
         "id": "48431dbf8619fcd9",
         "type": "tabs",
-        "dimension": 48.87940234791889,
+        "dimension": 48.8794023479189,
         "children": [
           {
             "id": "abedc805ea24086d",
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Paper List.md",
+                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paper List"
+              "title": "Graph-Constrained Reasoning"
             }
           },
           {
@@ -84,21 +84,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model Training Log/GCR.md",
+                "file": "Model Training Log/GNN-RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GCR"
+              "title": "GNN-RAG"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "c3d6dc3dc6e9f178",
         "type": "tabs",
-        "dimension": 51.12059765208111,
+        "dimension": 51.1205976520811,
         "children": [
           {
             "id": "1798a643de165262",
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/To Do List/TDL 2025-3 Mar.md",
+                "file": "Journal/To Do List/TDL 2025-4 Apr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TDL 2025-3 Mar"
+              "title": "TDL 2025-4 Apr"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/To Do List/TDL 2025-4 Apr.md",
+                "file": "Paper/Knowledge Graph/KBLaM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TDL 2025-4 Apr"
+              "title": "KBLaM"
             }
           },
           {
@@ -153,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -295,7 +295,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 212.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,18 +308,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0f21f71770cdb25",
+  "active": "da9143df37e977d4",
   "lastOpenFiles": [
-    "Model Training Log/GCR.md",
-    "Model Training Log/GNN-RAG.md",
+    "Journal/To Do List/TDL 2025-3 Mar.md",
     "Journal/To Do List/TDL 2025-4 Apr.md",
-    "Paper/Knowledge Graph/Reasoning on Graphs.md",
+    "Journal/To Do List/TDL Template.md",
+    "Paper/Knowledge Graph/KBLaM.md",
     "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Journal/Paper List.md",
+    "Model Training Log/GNN-RAG.md",
+    "Model Training Log/GCR.md",
+    "Paper/Knowledge Graph/Reasoning on Graphs.md",
     "Paper/Knowledge Graph/GNN-RAG.md",
     "Paper/How to read paper.md",
-    "Journal/Paper List.md",
-    "Journal/To Do List/TDL 2025-3 Mar.md",
-    "Journal/To Do List/TDL Template.md",
     "Paper/Knowledge Graph/Dual Reasoning.md",
     "Journal/To Do List/TDL 2025-2 Feb.md",
     "Project/Samsung Research 2025/KG PLM fine-tuned research.md",
@@ -345,7 +346,6 @@
     "Journal/Model Train List.md",
     "images/Pasted image 20250307160626.png",
     "images/Pasted image 20250307175403.png",
-    "Study/Datasets/informations of datasets.md",
     "Study/Query",
     "images/Pasted image 20250304102741.png",
     "images/Pasted image 20250227171316.png",
