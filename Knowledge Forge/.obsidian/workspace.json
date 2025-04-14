@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+                "file": "Paper/Knowledge Graph/KBLaM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph-Constrained Reasoning"
+              "title": "KBLaM"
             }
           },
           {
@@ -310,13 +310,13 @@
   },
   "active": "da9143df37e977d4",
   "lastOpenFiles": [
-    "Journal/To Do List/TDL 2025-3 Mar.md",
+    "Paper/Knowledge Graph/KBLaM.md",
     "Journal/To Do List/TDL 2025-4 Apr.md",
     "Journal/To Do List/TDL Template.md",
-    "Paper/Knowledge Graph/KBLaM.md",
-    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
-    "Journal/Paper List.md",
     "Model Training Log/GNN-RAG.md",
+    "Paper/Knowledge Graph/Graph-Constrained Reasoning.md",
+    "Journal/To Do List/TDL 2025-3 Mar.md",
+    "Journal/Paper List.md",
     "Model Training Log/GCR.md",
     "Paper/Knowledge Graph/Reasoning on Graphs.md",
     "Paper/Knowledge Graph/GNN-RAG.md",
